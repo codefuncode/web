@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+  <title>
+    #codefuncode
+  </title>
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="../css/w3.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/css.css" rel="stylesheet" type="text/css"/>
+    <link href="./style.css" rel="stylesheet">
+      <script src="../js/jquery.min.js" type="text/javascript">
+      </script>
+      <script src="../js/js.js" type="text/javascript">
+      </script>
+      <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+_smartsupp.key = '537eb8ab4a2c201fe82e181274cb4e023c0a4590';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
+      </script>
+      <style>
+        html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+      </style>
+      <body class="w3-light-grey">
+        <style type="text/css">
+          *,
+*::before,
+*::after {
+    box-sizing: border-box;
+    /* Too much math below to be concerned with standard CSS Box Model element dimensions calculations. Let's not have to account for padding/margins/borders on anything here. */
+}
+body {
+    margin: 0;
+    /*background-image: url('http://www.desktopwallpaperhd.net/wallpapers/18/d/andromeda-space-background-computer-images-187549.jpg');*/
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    margin: 0 0 30px 0;
+    padding: 20px;
+    background-color: rgba(20, 20, 20, 0.9);
+    color: #fff;
+    text-align: center;
+    font-family: Arial;
+    text-transform: uppercase;
+    box-shadow: 0 0 20px -1px #efefef;
+}
+.carousel_wrapper {
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1000px;
+}
+.carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: rotateY(-360deg) translateZ(-412px);
+    /* add reverse transformation from the slides */
+    animation: swirl 40s steps(10000, end) infinite;
+    /* run `swirl` animation (defined at end of CSS) infitely, with animation lasting 40 seconds, and 10,000 steps between the FROM and TO values in the animation for a smooth rotation */
+}
+.slide {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 300px;
+    height: 187px;
+}
+.slide img {
+    width: 280px;
+    height: 175px;
+    border: 3px inset rgba(47, 115, 201, 0.75);
+    box-shadow: 0 0 15px 3px rgba(110, 72, 221, 0.9);
+}
+/*
+9 Slides total: 360 Degrees (full circle) --> 360/9 = 40 --> our increment for rotation
+
+Some math. Consider how the carousel will be set up. It's going to be a 3D circle, like an orbit. The orientation will be such that it would be like setting a ring down on a table, then bending down and looking at the ring head on from the edge of the table. The main "front" image will be entirely front-facing. The other images will be rotated slightly to make a full circle. You could sketch this out in 2D from a bird's eye view, and you'd end up with a picture like the following:
+
+https://cl.ly/image/2P3E1U0W0c29
+
+Each triangle/piece would be a slide, hence 9 pieces. That being said, let's do some calculations, but we'll use the dimensions of our elements rather than those in the picture.
+
+So, we're rotating all the slides in 40º increments relative to each other, because 360º makes a full circle, and we have 9 elements: 360/9 = 40
+
+In the picture above, we want to find the radius of the circle (which isn't exactly a circle because it's made up of triangles). So we can cut each triangle in half and solve for `r` (radius). We can solve for `r` using some geometry and our own elements' dimensions.
+
+The width of the slides is 300px. We're going to split those triangles in half and use the TANGENT function in geometry/trigonemty to solve for `r`. And since we're splitting each of the 9 triangles (the slides) in half for this, we need to account for the fact that our key angle is now going to be 20º and not 40º. We can solve for `r` by taking our smaller triangles' width (150px) and dividing by the tangent of 20º (in degrees, not radians). So:
+
+            150
+   r =  -----------
+          tan(20º)
+
+Here's a screenshot of me doing the calculations in JavaScript, right in the browser console!
+
+Math things: https://cl.ly/image/1t0j1V2Y2l2Z
+
+So, `r` is (about) 412px long! This means we need to TRANSLATE the slides in the Z 3-dimensional plane by 412px. This should be done AFTER the rotateY transformation.
+*/
+
+.slide.one {
+    transform: rotateY(0deg) translateZ(412px);
+}
+.slide.two {
+    transform: rotateY(40deg) translateZ(412px);
+}
+.slide.three {
+    transform: rotateY(80deg) translateZ(412px);
+}
+.slide.four {
+    transform: rotateY(120deg) translateZ(412px);
+}
+.slide.five {
+    transform: rotateY(160deg) translateZ(412px);
+}
+.slide.six {
+    transform: rotateY(200deg) translateZ(412px);
+}
+.slide.seven {
+    transform: rotateY(240deg) translateZ(412px);
+}
+.slide.eight {
+    transform: rotateY(280deg) translateZ(412px);
+}
+.slide.nine {
+    transform: rotateY(320deg) translateZ(412px);
+}
+/*
+CSS3 ANIMATION
+-------------------
+Simply rotates the carousel around the Y axis by using rotateY and starting at initial value, -360º, and going to final value 0º, then resetting.
+*/
+
+@keyframes swirl {
+    from {
+        transform: rotateY(-360deg);
+    }
+    to {
+        transform: rotateY(0deg);
+    }
+}
+        </style>
+      </body>
+    </link>
+  </head>
+  <!-- Top container -->
+  <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
+    <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();">
+      <i class="fa fa-bars">
+      </i>
+      Menu
+    </button>
+    <span class="w3-bar-item w3-right">
+      #codefuncode
+    </span>
+  </div>
+  <!-- Sidebar/menu -->
+  <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" id="mySidebar" style="z-index:3;width:300px;">
+    <br/>
+    <div class="w3-container w3-row">
+      <div class="w3-col s4">
+        <img class="w3-circle w3-margin-right" src="../img/tux/075.png" style="width:70px; height: 70px;"/>
+      </div>
+      <div class="w3-col s8 w3-bar menux">
+        <span>
+          Bienvenido a
+          <br/>
+          <strong>
+            Código Divertido
+          </strong>
+        </span>
+        <br/>
+        <a class="w3-bar-item facebook" href="https://www.facebook.com/codefuncode/" target="_blank">
+          <img alt="" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2016%2F07%2FFacebook-Download-PNG.png&f=1&nofb=1"/>
+        </a>
+        <a class="w3-bar-item " href="https://github.com/codefuncode" target="_blank">
+          <img alt="" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fbrettbeauregard.com%2Fblog%2Fwp-content%2Fuploads%2F2011%2F12%2Fgithub-300x300.png&f=1&nofb=1"/>
+        </a>
+      </div>
+    </div>
+    <hr/>
+    <div class="w3-container">
+      <h5>
+        Categorías
+      </h5>
+    </div>
+    <div class="w3-bar-block menux">
+      <a class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" href="#" onclick="w3_close()" title="close menu">
+        <i class="fa fa-remove fa-fw">
+        </i>
+        Cerrar menú
+      </a>
+      <a class="w3-bar-item w3-button w3-padding " href="../index.html">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.kt7ztd0AwJWy9sm_MDg6AQHaEu%26pid%3DApi&f=1"/>
+        Home
+      </a>
+      <a class="w3-bar-item w3-button w3-padding " href="../HTML/001-introduccion.html">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.focuseduvation.com%2Fwp-content%2Fuploads%2F2017%2F09%2FHTML5-Image.png&f=1&nofb=1"/>
+        HTML
+      </a>
+      <a class="w3-bar-item w3-button w3-padding" href="../CSS/001-introduccion.html">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.iconfinder.com%2Fdata%2Ficons%2Fsocial-media-logos-flat-colorful-1%2F2048%2F5351_-_CSS3-512.png&f=1&nofb=1"/>
+        CSS
+      </a>
+      <a class="w3-bar-item w3-button w3-padding" href="../JS/001-introduccion.html">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpng.pngtree.com%2Fsvg%2F20170719%2Fjavascript_633988.png&f=1&nofb=1"/>
+        JavaScript
+      </a>
+      <a class="w3-bar-item w3-button w3-padding" href="../PHP/001-introduccion.html">
+        <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fphp%2Fphp_PNG10.png&f=1&nofb=1"/>
+        PHP
+      </a>
+      <a class="w3-bar-item w3-button w3-padding" href="../MySql/001-introduccion.html">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.0EOZiM3VCxBC_4HlLjApLwHaHa%26pid%3DApi&f=1"/>
+        MySql
+      </a>
+      <br/>
+      <br/>
+    </div>
+  </nav>
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large w3-animate-opacity" id="myOverlay" onclick="w3_close()" style="cursor:pointer" title="close side menu">
+  </div>
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main" style="margin-left:300px;margin-top:43px;">
+    <!-- Header -->
+    <header class="w3-container" style="padding-top:22px">
+      <h5>
+        <b>
+          <!--  <i class="fa fa-dashboard">
+            </i> -->
+          HTML5
+        </b>
+      </h5>
+    </header>
+    <!--    <div class="w3-row-padding w3-margin-bottom">
+        <div class="w3-five">
+          <div class="w3-container w3-red w3-padding-16">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Y_sp_96EZIX3OHRLTgHOmgHaEu%26pid%3DApi&f=1"/>
+          </div>
+        </div>
+        <div class="w3-five">
+          <div class="w3-container w3-blue w3-padding-16">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flearning.linkedin.com%2Fcontent%2Fdam%2Fme%2Flearning%2Fblog%2F2016%2Fseptember%2FCSS.jpg&f=1&nofb=1"/>
+          </div>
+        </div>
+        <div class="w3-five">
+          <div class="w3-container w3-teal w3-padding-16">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images-1.medium.com%2Fmax%2F1200%2F1*H-25KB7EbSHjv70HXrdl6w.png&f=1&nofb=1"/>
+          </div>
+        </div>
+        <div class="w3-five">
+          <div class="w3-container w3-purple w3-padding-16">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.rbrHgjHJov9cIaqjLdTh5AHaFE%26pid%3DApi&f=1"/>
+          </div>
+        </div>
+        <div class="w3-five">
+          <div class="w3-container w3-orange w3-text-white w3-padding-16">
+            <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.filerepairtool.net%2Fblog%2Fwp-content%2Fuploads%2F2014%2F04%2Ficon_mysql.jpg&f=1&nofb=1"/>
+          </div>
+        </div>
+      </div> -->
+    <div class="row">
+      <div class="col-12">
+        <div class="carousel_wrapper">
+          <div class="carousel">
+            <div class="slide one">
+              <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.5brmc-B-3PkGw1G0qUVVjAHaDt%26pid%3DApi&f=1"/>
+            </div>
+            <div class="slide two">
+              <img src="../img/ventaautos.jpeg"/>
+            </div>
+            <div class="slide three">
+              <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cotilleo.es%2Fwp-content%2Fuploads%2F2017%2F07%2Fanuncios-machistas-destacada.jpg&f=1&nofb=1"/>
+            </div>
+            <div class="slide four">
+              <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.xsaR4p_nZEn4zZ4tiW4CtQHaDq%26pid%3DApi&f=1"/>
+            </div>
+            <div class="slide five">
+              <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.9N2UOyXXa0RJaSMx3cWSSwHaEK%26pid%3DApi&f=1"/>
+            </div>
+            <div class="slide six">
+              <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmundoefes.com%2Fwp-content%2Fuploads%2F2016%2F07%2FSabritas-Kinne-607.jpg&f=1&nofb=1"/>
+            </div>
+            <div class="slide seven">
+              <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fep00.epimg.net%2Felcomidista%2Fimagenes%2F2016%2F01%2F29%2Farticulo%2F1454068246_197175_1454068418_noticia_normal.jpg&f=1&nofb=1"/>
+            </div>
+            <div class="slide eight">
+              <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.5lmppfBxXU_GcRMBfW5XeQHaCy%26pid%3DApi&f=1"/>
+            </div>
+            <div class="slide nine">
+              <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.5brmc-B-3PkGw1G0qUVVjAHaDt%26pid%3DApi&f=1"/>
+            </div>
+          </div>
+          <!-- / .carousel -->
+        </div>
+      </div>
+    </div>
+    <!-- / .carousel_wrapper -->
+    <!--     <div class="w3-container">
+      <div id="cuerpo">
+      </div>
+      <script type="text/javascript">
+        jQuery(document).ready(function($) {
+             $("#cuerpo").load("html/intro.html #test");
+          });
+      </script>
+    </div>
+    <div class="w3-container w3-dark-grey w3-padding-32">
+      <div class="w3-row">
+        <div class="w3-container w3-third">
+          <h5 class="w3-bottombar w3-border-green">
+            Maqueado y estilo para la web
+          </h5>
+          <p>
+            HTML
+          </p>
+          <p>
+            CSS
+          </p>
+        </div>
+        <div class="w3-container w3-third">
+          <h5 class="w3-bottombar w3-border-red">
+            Inteligencia y comportamiento
+          </h5>
+          <p>
+            JavaScript
+          </p>
+          <p>
+            PHP
+          </p>
+        </div>
+        <div class="w3-container w3-third">
+          <h5 class="w3-bottombar w3-border-orange">
+            Almacenamiento de datos
+          </h5>
+          <p>
+            MySQL
+          </p>
+        </div>
+      </div>
+    </div> -->
+    <!-- Footer -->
+    <!--  <footer class="w3-container w3-padding-16 w3-light-grey">
+
+      </footer> -->
+  </div>
+  <!-- End page content -->
+  <script>
+    // Get the Sidebar
+        var mySidebar = document.getElementById("mySidebar");
+
+        // Get the DIV with overlay effect
+        var overlayBg = document.getElementById("myOverlay");
+
+        // Toggle between showing and hiding the sidebar, and add overlay effect
+        function w3_open() {
+        if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+        } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+        }
+        }
+
+        // Close the sidebar with the close button
+        function w3_close() {
+        mySidebar.style.display = "none";
+        overlayBg.style.display = "none";
+        }
+  </script>
+</html>
