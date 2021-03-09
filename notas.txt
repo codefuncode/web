@@ -1,4 +1,4 @@
 sudo /opt/lampp/lampp start
 
-https://codefuncode.github.io/codefuncode/
+https://codefuncode.github.io/web/
 
