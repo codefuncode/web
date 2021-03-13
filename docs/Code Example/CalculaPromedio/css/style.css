@@ -1,0 +1,17 @@
+label {
+    display: inline-block;
+    width: 30% !important;
+}
+.insertar_datos div {
+    margin-bottom: 25px;
+}
+.insertar_datos [type="text"],
+.insertar_datos [type="number"] {
+    width: 65% !important;
+}
+.botones input {
+    width: 10%;
+}
+.insertar input {
+    width: 95%;
+}

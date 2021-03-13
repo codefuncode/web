@@ -1,0 +1,100 @@
+!
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+      <link href="img/194931.png" rel="icon"/>
+      <link href="css/w3.css" rel="stylesheet" type="text/css"/>
+      <link href="css/style.css" rel="stylesheet" type="text/css"/>
+      <script src="js/test.js" type="text/javascript">
+      </script>
+      <title>
+        Calcula Promedio
+      </title>
+    </meta>
+  </head>
+</html>
+<body>
+  <div class="w3-container w3-padding-large">
+    <div class="w3-row">
+      <div class="w3-container w3-center w3-padding-large">
+        <div class="botones">
+          <input name="name" type="button" value="button"/>
+          <input name="name" type="button" value="button"/>
+          <input name="name" type="button" value="button"/>
+          <input name="name" type="button" value="button"/>
+          <input name="name" type="button" value="button"/>
+          <input name="name" type="button" value="button"/>
+          <input name="name" type="button" value="button"/>
+          <input name="name" type="button" value="button"/>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row">
+      <div class="w3-half">
+        <div class="w3-container w3-padding-large insertar_datos">
+          <div class="">
+            <label for="uname">
+              Nombre del estudiante:
+            </label>
+            <input id="nombre" name="name" type="text"/>
+          </div>
+          <div class="">
+            <label for="uname">
+              Primera calificación:
+            </label>
+            <input id="cal1" name="name" type="number"/>
+          </div>
+          <div class="">
+            <label for="uname">
+              Segunda calificación:
+            </label>
+            <input id="cal2" name="name" type="number"/>
+          </div>
+          <div class="">
+            <label for="uname">
+              Tercera calificación:
+            </label>
+            <input id="cal3" name="name" type="number"/>
+          </div>
+          <div class="insertar">
+            <input id="agregar" type="button" value="Agregar"/>
+          </div>
+        </div>
+      </div>
+      <div class="w3-half">
+        <div class="w3-container">
+          <h2>
+            Tabla de estudiantes
+          </h2>
+          <table class="w3-table-all w3-hoverable">
+            <thead>
+              <tr class="w3-light-grey">
+                <th>
+                  NoImbre
+                </th>
+                <th>
+                  Cal 1
+                </th>
+                <th>
+                  Cal 2
+                </th>
+                <th>
+                  Cal 3
+                </th>
+                <th>
+                  Promedio
+                </th>
+              </tr>
+            </thead>
+            <tbody class="data_estudiantes">
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/class.js" type="text/javascript">
+  </script>
+</body>
