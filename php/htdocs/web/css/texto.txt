@@ -1,0 +1,13 @@
+Esta pagina esta dedicada a la escritura de CSS y se abarca desde la sintaxis básica hasta la implementación de algunos marcos de trabajo que utilizo para generar interfaces bonitas y atractivas para le usuario. 
+
+Podrás encontrar contenido que utilizo de referencias para mis trabajos aquí:
+
+https://developer.mozilla.org/en-US/
+
+https://devdocs.io/
+
+https://www.tutorialspoint.com/web_development_tutorials.htm
+
+https://www.w3schools.com/default.asp
+
+
