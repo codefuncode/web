@@ -37,30 +37,34 @@
       <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.kt7ztd0AwJWy9sm_MDg6AQHaEu%26pid%3DApi&f=1"/>
       Home
     </a>
- <!--    <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Plantillas/" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="contebnedores.php" target="_blank">
+      <img src="img/all/css3.png"/>
+      Contenedores
+    </a>
+    <!--  <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Plantillas/" target="_blank">
       <img src="img/all/codedoc.png"/>
       Plantillas
-    </a>
-    <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Plantillas/" target="_blank">
+    </a> -->
+    <!--     <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Plantillas/" target="_blank">
       <img src="img/all/html5.png"/>
       HTML
-    </a>
-    <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Plantillas/" target="_blank">
+    </a> -->
+    <!--     <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Plantillas/" target="_blank">
       <img src="img/all/css3.png"/>
       CSS
-    </a>
-    <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Plantillas/" target="_blank">
+    </a> -->
+    <!--     <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Plantillas/" target="_blank">
       <img src="img/all/php.png"/>
       PHP
-    </a>
-    <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Plantillas/" target="_blank">
+    </a> -->
+    <!--     <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Plantillas/" target="_blank">
       <img src="img/all/js.png"/>
       JS
-    </a>
-    <a class="w3-bar-item w3-button w3-padding" href="ejemplo/index.php" target="_blank">
+    </a> -->
+    <!--     <a class="w3-bar-item w3-button w3-padding" href="ejemplo/index.php" target="_blank">
       <img src="img/all/194931.png"/>
       Zona de estudiantes
-    </a> -->
+    </a>  -->
     <br/>
     <br/>
   </div>

@@ -4,3 +4,15 @@ https://codefuncode.github.io/codefuncode/
 
 
 Mira como va mi pagina para ofrecer servicio  desarrollo de aplicaciones web y tutorías aquí https://codefuncode.github.io/web/. 
+
+<Directory "htdocs">
+    AllowOverride All
+</Directory>
+
+<Location "/">
+    Options +IncludesNoExec -ExecCGI
+</Location>
+
+<Directory "htdocs">
+    Options Indexes
+</Directory>
