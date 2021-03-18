@@ -45,30 +45,30 @@
       <img src="img/all/css3.png"/>
       CSS
     </a>
-<!--     <a class="w3-bar-item w3-button w3-padding" href="web/js/index.php" target="_blank">
+<!--   <a class="w3-bar-item w3-button w3-padding" href="web/js/index.php" target="_blank">
       <img src="img/all/js.png"/>
       JS
-    </a>
-    <a class="w3-bar-item w3-button w3-padding" href="web/php/index.php" target="_blank">
+    </a> -->
+<!--     <a class="w3-bar-item w3-button w3-padding" href="web/php/index.php" target="_blank">
       <img src="img/all/php.png"/>
       PHP
-    </a>
-    <a class="w3-bar-item w3-button w3-padding" href="web/mysql/index.php" target="_blank">
+    </a> -->
+ <!--    <a class="w3-bar-item w3-button w3-padding" href="web/mysql/index.php" target="_blank">
       <img src="img/all/mysql.png"/>
       MYSQL
-    </a>
-    <a class="w3-bar-item w3-button w3-padding" href="web/cliente/index.php" target="_blank">
+    </a> -->
+<!--     <a class="w3-bar-item w3-button w3-padding" href="web/cliente/index.php" target="_blank">
       <img src="img/all/194931.png"/>
       Zona de clientes
-    </a>
-    <a class="w3-bar-item w3-button w3-padding" href="ejemplo/index.php" target="_blank">
+    </a> -->
+   <!--  <a class="w3-bar-item w3-button w3-padding" href="ejemplo/index.php" target="_blank">
       <img src="img/all/194931.png"/>
       Zona de estudiantes
-    </a>
+    </a> -->
     <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Plantillas/" target="_blank">
       <img src="img/all/codedoc.png"/>
       Plantillas
-    </a> -->
+    </a>
     <br/>
     <br/>
   </div>
