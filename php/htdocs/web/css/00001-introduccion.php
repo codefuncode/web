@@ -14,44 +14,39 @@
       <!-- Header -->
       <div class="w3-container">
         <header class="w3-container" style="padding-top:22px">
-          <div class="w3-container" style="padding-bottom: 1%">
-            <h3>
-              Bienvenido a mi web, donde comparto mis escritos en CSS
-            </h3>
-          </div>
-          <div class="w3-container">
-            Esta pagina esta dedicada a la escritura de CSS y se abarca desde la sintaxis básica hasta la implementación de algunos marcos de trabajo que utilizo para generar interfaces bonitas y atractivas para le usuario.
-            <p>
-              Podrás encontrar contenido que utilizo de referencias para mis trabajos aquí:
-            </p>
-            <ul class="w3-ul">
-              <li class="w3-padding-large">
-                <a class="w3-hover-text-green" href="  https://developer.mozilla.org/en-US/" target="_blank">
-                  developer.mozilla.org
-                </a>
-              </li>
-              <li class="w3-padding-large">
-                <a class="w3-hover-text-green" href="https://devdocs.io/" target="_blank">
-                  devdocs.io
-                </a>
-              </li>
-              <li class="w3-padding-large">
-                <a class="w3-hover-text-green" href="https://www.tutorialspoint.com/web_development_tutorials.htm" target="_blank">
-                  tutorialspoint.com
-                </a>
-              </li>
-              <li class="w3-padding-large">
-                <a class="w3-hover-text-green" href="https://www.w3schools.com/default.asp" target="_blank">
-                  w3schools.com
-                </a>
-              </li>
-            </ul>
-            <p>
-              Además encontraras muchos fragmentos de  código para que los implementes en tus paginas web
-            </p>
-          </div>
+          <h2>
+            Introduccion a CSS
+          </h2>
         </header>
-        <div class="w3-container">
+        <div class="w3-container w3-padding-large">
+          <h3>
+            CSS es el lenguaje que usamos para diseñar una página web.
+          </h3>
+          <h4>
+            ¿Qué es CSS?
+          </h4>
+          <ul class="w3-ul">
+            <li class="w3-padding-small">
+              CSS son las siglas de Cascading Style Sheets
+            </li>
+            <li class="w3-padding-small">
+              CSS describe cómo se mostrarán los elementos HTML en la pantalla, el papel o en otros medios.
+            </li>
+            <li class="w3-padding-small">
+              CSS describe cómo se mostrarán los elementos HTML en la pantalla, el papel o en otros medios.
+            </li>
+            <li class="w3-padding-small">
+              CSS ahorra mucho trabajo. Puede controlar el diseño de varias páginas web a la vez
+            </li>
+            <li class="w3-padding-small">
+              CSS ahorra mucho trabajo. Puede controlar el diseño de varias páginas web a la vez
+            </li>
+            <li class="w3-padding-small">
+              Las hojas de estilo externas se almacenan en archivos CSS
+            </li>
+          </ul>
+        </div>
+        <!--       <div class="w3-container">
           <footer class="w3-container w3-dark-grey">
             <div class="w3-row">
               <div class="w3-container w3-third">
@@ -86,7 +81,7 @@
               </div>
             </div>
           </footer>
-        </div>
+        </div> -->
       </div>
     </div>
     <!-- End page content -->
