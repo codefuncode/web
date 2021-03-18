@@ -1,8 +1,19 @@
+<div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
+  <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();">
+    <i class="fa fa-bars">
+    </i>
+    Menu
+  </button>
+  <span class="w3-bar-item w3-right">
+    Logo
+  </span>
+</div>
+<!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" id="mySidebar" style="z-index:3;width:300px; margin-top: .01%;">
   <br/>
   <div class="w3-container w3-row">
     <div class="w3-col s4">
-      <img class="w3-circle w3-margin-right" src="img/tux/075.png" style="width:70px; height: 70px;"/>
+      <img class="w3-circle w3-margin-right" src="vista/img/tux/075.png" style="width:70px; height: 70px;"/>
     </div>
     <div class="w3-col s8 w3-bar menux">
       <span>
@@ -37,39 +48,42 @@
       <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.kt7ztd0AwJWy9sm_MDg6AQHaEu%26pid%3DApi&f=1"/>
       Home
     </a>
-  <!--   <a class="w3-bar-item w3-button w3-padding" href="web/html/index.php" target="_blank">
-      <img src="img/all/html5.png"/>
+    <a class="w3-bar-item w3-button w3-padding" href="web/html/index.php" target="_blank">
+      <img src="vista/img/all/html5.png"/>
       HTML
-    </a> -->
+    </a>
     <a class="w3-bar-item w3-button w3-padding" href="web/css/index.php" target="_blank">
-      <img src="img/all/css3.png"/>
+      <img src="vista/img/all/css3.png"/>
       CSS
     </a>
-<!--     <a class="w3-bar-item w3-button w3-padding" href="web/js/index.php" target="_blank">
-      <img src="img/all/js.png"/>
+    <a class="w3-bar-item w3-button w3-padding" href="web/js/index.php" target="_blank">
+      <img src="vista/img/all/js.png"/>
       JS
     </a>
     <a class="w3-bar-item w3-button w3-padding" href="web/php/index.php" target="_blank">
-      <img src="img/all/php.png"/>
+      <img src="vista/img/all/php.png"/>
       PHP
     </a>
     <a class="w3-bar-item w3-button w3-padding" href="web/mysql/index.php" target="_blank">
-      <img src="img/all/mysql.png"/>
+      <img src="vista/img/all/mysql.png"/>
       MYSQL
     </a>
     <a class="w3-bar-item w3-button w3-padding" href="web/cliente/index.php" target="_blank">
-      <img src="img/all/194931.png"/>
+      <img src="vista/img/all/194931.png"/>
       Zona de clientes
     </a>
     <a class="w3-bar-item w3-button w3-padding" href="ejemplo/index.php" target="_blank">
-      <img src="img/all/194931.png"/>
+      <img src="vista/img/all/194931.png"/>
       Zona de estudiantes
     </a>
     <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Plantillas/" target="_blank">
-      <img src="img/all/codedoc.png"/>
+      <img src="vista/img/all/codedoc.png"/>
       Plantillas
-    </a> -->
+    </a>
     <br/>
     <br/>
   </div>
 </nav>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" id="myOverlay" onclick="w3_close()" style="cursor:pointer" title="close side menu">
+</div>
