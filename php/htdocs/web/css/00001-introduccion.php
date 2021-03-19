@@ -14,38 +14,123 @@
       <!-- Header -->
       <div class="w3-container">
         <header class="w3-container" style="padding-top:22px">
-          <h2>
-            Introduccion a CSS
+          <h2 class="w3-xlarge w3-serif">
+            <i>
+              Introduccion a CSS
+            </i>
           </h2>
+          <p>
+            Antes de comenzar con la definición de CSS cabe mencionar que es parte de la especificación HTML5 donde interactúan HTML, CSS y JavaScript. En este curso tal vez encontraras algunas instrucciones JavaScript en los ejemplos pero no será el enfoque. El enfoque será CSS y por lo tanto debemos tener presente que CSS da estilos visuales a las etiquetas en el navegador por lo que es recomendable saber de HTML para comprender este curso. Comencemos con el resumen de la definición de CSS lo cual esta basada en diferentes documentaciones.
+          </p>
         </header>
         <div class="w3-container w3-padding-large">
-          <h3>
-            CSS es el lenguaje que usamos para diseñar una página web.
+          <h3 class="w3-xlarge w3-serif">
+            <i>
+              Introduccion a CSS  CSS es el lenguaje que usamos para diseñar una página web.
+            </i>
           </h3>
-          <h4>
-            ¿Qué es CSS?
-          </h4>
-          <ul class="w3-ul">
-            <li class="w3-padding-small">
-              CSS son las siglas de Cascading Style Sheets
-            </li>
-            <li class="w3-padding-small">
-              CSS describe cómo se mostrarán los elementos HTML en la pantalla, el papel o en otros medios.
-            </li>
-            <li class="w3-padding-small">
-              CSS describe cómo se mostrarán los elementos HTML en la pantalla, el papel o en otros medios.
-            </li>
-            <li class="w3-padding-small">
-              CSS ahorra mucho trabajo. Puede controlar el diseño de varias páginas web a la vez
-            </li>
-            <li class="w3-padding-small">
-              CSS ahorra mucho trabajo. Puede controlar el diseño de varias páginas web a la vez
-            </li>
-            <li class="w3-padding-small">
-              Las hojas de estilo externas se almacenan en archivos CSS
-            </li>
-          </ul>
+          <h3 class="w3-xlarge w3-serif">
+            <i>
+              ¿Qué es CSS?
+            </i>
+          </h3>
+          <p>
+            CSS son las hojas de estilos en cascada o más bien, un fichero con instrucciones para dar estilos a los elementos HTML lo que da un aspecto atractivo a los usuarios y mejora la navegabilidad dentro de nuestro sitio web.
+          </p>
+          <p>
+            Las hojas de estilo en cascada, a las que se hace referencia cariñosamente como CSS, es un lenguaje de diseño simple destinado a simplificar el proceso de hacer que las páginas web sean presentables. Ahora veremos varia definiciones algunas de las páginas más famosas en cuanto a tutoriales de desarrollo web.
+          </p>
+          <div class="w3-panel w3-leftbar w3-light-grey" style="margin-left: 3%;">
+            <!--     <p class="w3-xlarge w3-serif">
+              <i>
+                La web de tutorialspoint nos dice :
+              </i>
+            </p> -->
+            <p>
+              "CSS maneja la apariencia y el funcionamiento de una página web. Con CSS, puede controlar el color del texto, el estilo de las fuentes, el espacio entre párrafos, el tamaño y la disposición de las columnas, las imágenes o colores de fondo que se utilizan, los diseños de diseño, las variaciones en la visualización para diferentes dispositivos y tamaños de pantalla. así como una variedad de otros efectos. CSS es fácil de aprender y comprender, pero proporciona un control poderoso sobre la presentación de un documento HTML. Más comúnmente, CSS se combina con los lenguajes de marcado HTML o XHTML".
+            </p>
+            <p class="w3-xlarge w3-serif">
+              <i>
+                Ventajas de CSS
+              </i>
+            </p>
+            <p>
+              " CSS ahorra tiempo: puede escribir CSS una vez y luego reutilizar la misma hoja en varias páginas HTML. Puede definir un estilo para cada elemento HTML y aplicarlo a tantas páginas web como desee."
+            </p>
+            <p>
+              "Las páginas se cargan más rápido: si usa CSS, no es necesario que escriba atributos de etiquetas HTML cada vez. Simplemente escriba una regla CSS de una etiqueta y aplíquela a todas las apariciones de esa etiqueta. Por lo tanto, menos código significa tiempos de descarga más rápidos."
+            </p>
+            <p>
+              <span>
+                Fácil mantenimiento:
+              </span>
+              "Para realizar un cambio global, simplemente cambie el estilo y todos los elementos de todas las páginas web se actualizarán automáticamente."
+            </p>
+            <p>
+              <span>
+                Estilos superiores a HTML:
+              </span>
+              "CSS tiene una gama de atributos mucho más amplia que HTML, por lo que puede darle un aspecto mucho mejor a su página HTML en comparación con los atributos HTML."
+            </p>
+            <p>
+              <span>
+                Compatibilidad con varios dispositivos:
+              </span>
+              "Las hojas de estilo permiten optimizar el contenido para más de un tipo de dispositivo. Al usar el mismo documento HTML, se pueden presentar diferentes versiones de un sitio web para dispositivos portátiles como PDA y teléfonos celulares o para imprimir."
+            </p>
+            <p>
+              <span>
+                Estándares de web globales:
+              </span>
+              "Ahora los atributos HTML están en desuso y se recomienda utilizar CSS. Por lo tanto, es una buena idea comenzar a usar CSS en todas las páginas HTML para hacerlas compatibles con futuros navegadores."
+            </p>
+            <p class="w3-xlarge w3-serif">
+              <i>
+                ¿Quién crea y mantiene CSS?
+              </i>
+            </p>
+            <p>
+              "CSS se crea y mantiene a través de un grupo de personas dentro del W3C llamado Grupo de Trabajo de CSS. El Grupo de Trabajo CSS crea documentos llamados especificaciones. Cuando una especificación ha sido discutida y ratificada oficialmente por los miembros del W3C, se convierte en una recomendación."
+            </p>
+            <p>
+              Estas especificaciones ratificadas se denominan recomendaciones porque el W3C no tiene control sobre la implementación real del lenguaje. Empresas y organizaciones independientes crean ese software.
+            </p>
+            <p>
+              "NOTA: El Consorcio World Wide Web, o W3C, es un grupo que hace recomendaciones sobre cómo funciona Internet y cómo debería evolucionar."
+            </p>
+            <p class="w3-xlarge w3-serif">
+              <i>
+                Versiones CSS
+              </i>
+            </p>
+            <p>
+              " El nivel 1 de hojas de estilo en cascada (CSS1) salió de W3C como una recomendación en diciembre de 1996. Esta versión describe el lenguaje CSS así como un modelo de formato visual simple para todas las etiquetas HTML."
+            </p>
+            <p>
+              CSS2 se convirtió en una recomendación del W3C en mayo de 1998 y se basa en CSS1. Esta versión agrega soporte para la hoja de estilo, específicamente la para medios, Ej. Impresoras y dispositivos auditivos, fuentes descarga-bles, posicionamiento de elementos y tablas.”
+            </p>
+          </div>
         </div>
+        <!--         <ul class="w3-ul">
+          <li class="w3-padding-small">
+            CSS son las siglas de Cascading Style Sheets
+          </li>
+          <li class="w3-padding-small">
+            CSS describe cómo se mostrarán los elementos HTML en la pantalla, el papel o en otros medios.
+          </li>
+          <li class="w3-padding-small">
+            CSS describe cómo se mostrarán los elementos HTML en la pantalla, el papel o en otros medios.
+          </li>
+          <li class="w3-padding-small">
+            CSS ahorra mucho trabajo. Puede controlar el diseño de varias páginas web a la vez
+          </li>
+          <li class="w3-padding-small">
+            CSS ahorra mucho trabajo. Puede controlar el diseño de varias páginas web a la vez
+          </li>
+          <li class="w3-padding-small">
+            Las hojas de estilo externas se almacenan en archivos CSS
+          </li>
+        </ul>
         <div class="w3-container w3-padding-large">
           <p>
             Las hojas de estilo en cascada, a las que se hace referencia cariñosamente como CSS, es un lenguaje de diseño simple destinado a simplificar el proceso de hacer que las páginas web sean presentables.
@@ -98,8 +183,8 @@
           <p>
             CSS2 se convirtió en una recomendación del W3C en mayo de 1998 y se basa en CSS1. Esta versión agrega soporte para la hoja de estilo, específicamente la para medios, Ej. Impresoras y dispositivos auditivos, fuentes descarga-bles, posicionamiento de elementos y tablas.
           </p>
-        </div>
-        <div class="w3-container w3-padding-large">
+        </div> -->
+        <!--       <div class="w3-container w3-padding-large">
           <div class="w3-row">
             <div class="w3-container w3-col m1">
               <img alt="Lights" class="w3-image" src="img/all/html5.png"/>
@@ -164,13 +249,13 @@
           </p>
           <p>
           </p>
-        </div>
-        <div class="w3-container w3-padding-large">
+        </div> -->
+        <div class="w3-container w3-padding">
           <?php include "comp/pie.php";?>
         </div>
       </div>
+      <!-- End page content -->
+      <?php include "comp/slidebar.php";?>
     </div>
-    <!-- End page content -->
-    <?php include "comp/slidebar.php";?>
   </body>
 </html>

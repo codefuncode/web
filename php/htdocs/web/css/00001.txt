@@ -1,29 +1,17 @@
+﻿
+
+Antes de comenzar con la definición de CSS cabe mencionar que es parte de la especificación HTML5 donde interactúan HTML, CSS y JavaScript. En este curso tal vez encontraras algunas instrucciones JavaScript en los ejemplos pero no será el enfoque. El enfoque será CSS y por lo tanto debemos tener presente que CSS da estilos visuales a las etiquetas en el navegador por lo que es recomendable saber de HTML para comprender este curso. Comencemos con el resumen de la definición de CSS lo cual esta basada en diferentes documentaciones.  
 
 
-Antes de comenzar con la definicion de CSS cabe mencionar que es parte de la espesificacion HTML5
+¿Que es CSS?
 
+CSS son las hojas de estilos en cascada o más bien, un fichero con instrucciones para dar estilos a los elementos HTML lo que da un aspecto atractivo a los usuarios y mejora la navegabilidad dentro de nuestro sitio web. 
 
+Las hojas de estilo en cascada, a las que se hace referencia cariñosamente como CSS, es un lenguaje de diseño simple destinado a simplificar el proceso de hacer que las páginas web sean presentables. Ahora veremos varia definiciones algunas de las páginas más famosas en cuanto a tutoriales de desarrollo web. 
 
+La web de tutorialspoint nos dice : 
 
-
-HTML5 es un lenguaje de marcado que se utiliza para estructurar y presentar contenido en la World Wide Web. Es la quinta y última versión principal de HTML que es una recomendación del World Wide Web Consortium (W3C). La especificación actual se conoce como HTML Living Standard. Lo mantiene un consorcio de los principales proveedores de navegadores (Apple, Google, Mozilla y Microsoft), el Grupo de Trabajo de Tecnología de Aplicaciones de Hipertexto Web (WHATWG).
-
-HTML5 se lanzó por primera vez en formato público el 22 de enero de 2008, con una actualización importante y el estado de 'Recomendación del W3C' en octubre de 2014.Sus objetivos eran mejorar el idioma con soporte para lo último en multimedia y otras características nuevas; mantener el lenguaje fácilmente legible por humanos y consistentemente entendido por computadoras y dispositivos como navegadores web, analizadores, etc., sin la rigidez de XHTML; y seguir siendo compatible con versiones anteriores del software anterior. HTML5 está destinado a subsumir no solo HTML 4 sino también XHTML 1 y DOM Nivel 2 HTML. 
-
-HTML5 incluye modelos de procesamiento detallados para fomentar implementaciones más interoperables; amplía, mejora y racionaliza el marcado disponible para los documentos e introduce el marcado y las interfaces de programación de aplicaciones (API) para aplicaciones web, complejas. Por las mismas razones, HTML5 también es un candidato para aplicaciones móviles multiplataforma porque incluye características diseñadas con dispositivos de baja potencia en mente.
-
-Se incluyen muchas características sintácticas nuevas. Para incluir y manejar de forma nativa contenido multimedia y gráfico, se agregaron los nuevos elementos de video, audio y lienzo, y también se agregó soporte para contenido de gráficos vectoriales escalables (SVG) y MathML para fórmulas matemáticas. Para enriquecer el contenido semántico de los documentos, se agregan nuevos elementos de estructura de página como principal, sección, artículo, encabezado, pie de página, aparte, navegación y figura. Se introdujeron nuevos atributos, se eliminaron algunos elementos y atributos y se cambiaron, re-definieron o estandarizaron otros, como a, cite y menú. Las API y el Modelo de objetos de documento (DOM) son ahora partes fundamentales de la especificación HTML5,y HTML5 también define mejor el procesamiento de cualquier documento no válido. 
-
-
-
-
-
-
-
-https://www.tutorialspoint.com/css/what_is_css.htm 
-Las hojas de estilo en cascada, a las que se hace referencia cariñosamente como CSS, es un lenguaje de diseño simple destinado a simplificar el proceso de hacer que las páginas web sean presentables.
-
-CSS maneja la apariencia y el funcionamiento de una página web. Con CSS, puede controlar el color del texto, el estilo de las fuentes, el espacio entre párrafos, el tamaño y la disposición de las columnas, las imágenes o colores de fondo que se utilizan, los diseños de diseño, las variaciones en la visualización para diferentes dispositivos y tamaños de pantalla. así como una variedad de otros efectos.
+“CSS maneja la apariencia y el funcionamiento de una página web. Con CSS, puede controlar el color del texto, el estilo de las fuentes, el espacio entre párrafos, el tamaño y la disposición de las columnas, las imágenes o colores de fondo que se utilizan, los diseños de diseño, las variaciones en la visualización para diferentes dispositivos y tamaños de pantalla. así como una variedad de otros efectos.
 
 CSS es fácil de aprender y comprender, pero proporciona un control poderoso sobre la presentación de un documento HTML. Más comúnmente, CSS se combina con los lenguajes de marcado HTML o XHTML.
 Ventajas de CSS
@@ -51,7 +39,20 @@ Versiones CSS
 
 El nivel 1 de hojas de estilo en cascada (CSS1) salió de W3C como una recomendación en diciembre de 1996. Esta versión describe el lenguaje CSS así como un modelo de formato visual simple para todas las etiquetas HTML.
 
-CSS2 se convirtió en una recomendación del W3C en mayo de 1998 y se basa en CSS1. Esta versión agrega soporte para la hoja de estilo, específicamente la para medios, Ej. Impresoras y dispositivos auditivos, fuentes descarga-bles, posicionamiento de elementos y tablas.
+CSS2 se convirtió en una recomendación del W3C en mayo de 1998 y se basa en CSS1. Esta versión agrega soporte para la hoja de estilo, específicamente la para medios, Ej. Impresoras y dispositivos auditivos, fuentes descarga-bles, posicionamiento de elementos y tablas.”
+
+
+
+
+
+
+
+
+
+https://www.tutorialspoint.com/css/what_is_css.htm 
+
+
+
 
 
 
@@ -154,7 +155,13 @@ Puede encontrar una lista de las Recomendaciones actuales del W3C y otros docume
 Envíe sus comentarios a la lista de correo www-style@w3.org (vea cómo suscribirse) o al editor.
 
 
+HTML5 es un lenguaje de marcado que se utiliza para estructurar y presentar contenido en la World Wide Web. Es la quinta y última versión principal de HTML que es una recomendación del World Wide Web Consortium (W3C). La especificación actual se conoce como HTML Living Standard. Lo mantiene un consorcio de los principales proveedores de navegadores (Apple, Google, Mozilla y Microsoft), el Grupo de Trabajo de Tecnología de Aplicaciones de Hipertexto Web (WHATWG).
 
+HTML5 se lanzó por primera vez en formato público el 22 de enero de 2008, con una actualización importante y el estado de 'Recomendación del W3C' en octubre de 2014.Sus objetivos eran mejorar el idioma con soporte para lo último en multimedia y otras características nuevas; mantener el lenguaje fácilmente legible por humanos y consistentemente entendido por computadoras y dispositivos como navegadores web, analizadores, etc., sin la rigidez de XHTML; y seguir siendo compatible con versiones anteriores del software anterior. HTML5 está destinado a subsumir no solo HTML 4 sino también XHTML 1 y DOM Nivel 2 HTML. 
+
+HTML5 incluye modelos de procesamiento detallados para fomentar implementaciones más interoperables; amplía, mejora y racionaliza el marcado disponible para los documentos e introduce el marcado y las interfaces de programación de aplicaciones (API) para aplicaciones web, complejas. Por las mismas razones, HTML5 también es un candidato para aplicaciones móviles multiplataforma porque incluye características diseñadas con dispositivos de baja potencia en mente.
+
+Se incluyen muchas características sintácticas nuevas. Para incluir y manejar de forma nativa contenido multimedia y gráfico, se agregaron los nuevos elementos de video, audio y lienzo, y también se agregó soporte para contenido de gráficos vectoriales escalables (SVG) y MathML para fórmulas matemáticas. Para enriquecer el contenido semántico de los documentos, se agregan nuevos elementos de estructura de página como principal, sección, artículo, encabezado, pie de página, aparte, navegación y figura. Se introdujeron nuevos atributos, se eliminaron algunos elementos y atributos y se cambiaron, re-definieron o estandarizaron otros, como a, cite y menú. Las API y el Modelo de objetos de documento (DOM) son ahora partes fundamentales de la especificación HTML5,y HTML5 también define mejor el procesamiento de cualquier documento no válido. 
 
 
 Referencias 

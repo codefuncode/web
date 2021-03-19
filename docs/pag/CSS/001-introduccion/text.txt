@@ -1,0 +1,151 @@
+  <header class="w3-container" style="padding-top:22px">
+        <h5>
+          <b>
+            <!--  <i class="fa fa-dashboard">
+            </i> -->
+           CSS
+          </b>
+        </h5>
+      </header>
+
+      <div class="w3-panel">
+        <div class="w3-bar w3-light-grey">
+          <a class="w3-bar-item w3-button" href="#">
+            Home
+          </a>
+          <a class="w3-bar-item w3-button" href="#">
+            Link 1
+          </a>
+          <div class="w3-dropdown-hover">
+            <button class="w3-button">
+              Dropdown
+            </button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+              <a class="w3-bar-item w3-button" href="#">
+                Link 1
+              </a>
+              <a class="w3-bar-item w3-button" href="#">
+                Link 2
+              </a>
+              <a class="w3-bar-item w3-button" href="#">
+                Link 3
+              </a>
+            </div>
+          </div>
+          <div class="w3-dropdown-hover">
+            <button class="w3-button">
+              Dropdown
+            </button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+              <a class="w3-bar-item w3-button" href="#">
+                Link 1
+              </a>
+              <a class="w3-bar-item w3-button" href="#">
+                Link 2
+              </a>
+              <a class="w3-bar-item w3-button" href="#">
+                Link 3
+              </a>
+            </div>
+          </div>
+          <div class="w3-dropdown-hover">
+            <button class="w3-button">
+              Dropdown
+            </button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+              <a class="w3-bar-item w3-button" href="#">
+                Link 1
+              </a>
+              <a class="w3-bar-item w3-button" href="#">
+                Link 2
+              </a>
+              <a class="w3-bar-item w3-button" href="#">
+                Link 3
+              </a>
+            </div>
+          </div>
+          <div class="w3-dropdown-hover">
+            <button class="w3-button">
+              Dropdown
+            </button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+              <a class="w3-bar-item w3-button" href="#">
+                Link 1
+              </a>
+              <a class="w3-bar-item w3-button" href="#">
+                Link 2
+              </a>
+              <a class="w3-bar-item w3-button" href="#">
+                Link 3
+              </a>
+            </div>
+          </div>
+          <div class="w3-dropdown-hover">
+            <button class="w3-button">
+              Dropdown
+            </button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+              <a class="w3-bar-item w3-button" href="#">
+                Link 1
+              </a>
+              <a class="w3-bar-item w3-button" href="#">
+                Link 2
+              </a>
+              <a class="w3-bar-item w3-button" href="#">
+                Link 3
+              </a>
+            </div>
+          </div>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="w3-container">
+        <div id="cuerpo">
+        </div>
+        <script type="text/javascript">
+          jQuery(document).ready(function($) {
+             $("#cuerpo").load("html/intro.html #test");
+          });
+        </script>
+      </div>
+      <div class="w3-container w3-dark-grey w3-padding-32">
+        <div class="w3-row">
+          <div class="w3-container w3-third">
+            <h5 class="w3-bottombar w3-border-green">
+              Maqueado y estilo para la web
+            </h5>
+            <p>
+              HTML
+            </p>
+            <p>
+              CSS
+            </p>
+          </div>
+          <div class="w3-container w3-third">
+            <h5 class="w3-bottombar w3-border-red">
+              Inteligencia y comportamiento
+            </h5>
+            <p>
+              JavaScript
+            </p>
+            <p>
+              PHP
+            </p>
+          </div>
+          <div class="w3-container w3-third">
+            <h5 class="w3-bottombar w3-border-orange">
+              Almacenamiento de datos
+            </h5>
+            <p>
+              MySQL
+            </p>
+          </div>
+        </div>
+      </div>
