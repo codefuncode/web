@@ -4,7 +4,13 @@
       </i>
       Menu
     </button>
-    <span class="w3-bar-item w3-right">
+
+  <div class="w3-bar-item w3-right">
+      <input class="w3-hide-medium w3-hide-small" style="width: 500px; margin-right: 10px;" type="text" placeholder="Buscar aquí..." name="search"/>
+     <span>
       #codefuncode
     </span>
+    </div>
+
+
   </div>

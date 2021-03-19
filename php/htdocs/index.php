@@ -12,7 +12,7 @@
     <!-- !PAGE CONTENT! -->
     <div class="w3-main" style="margin-left:300px;margin-top:43px;">
       <!-- Header -->
-      <div class="w3-container">
+      <div class="w3-container w3-padding-large">
         <header class="w3-container" style="">
           <?php include_once "comp/webenconstruccion.php";?>
         </header>

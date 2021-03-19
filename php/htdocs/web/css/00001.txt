@@ -1,0 +1,167 @@
+
+
+Antes de comenzar con la definicion de CSS cabe mencionar que es parte de la espesificacion HTML5
+
+
+
+
+
+HTML5 es un lenguaje de marcado que se utiliza para estructurar y presentar contenido en la World Wide Web. Es la quinta y última versión principal de HTML que es una recomendación del World Wide Web Consortium (W3C). La especificación actual se conoce como HTML Living Standard. Lo mantiene un consorcio de los principales proveedores de navegadores (Apple, Google, Mozilla y Microsoft), el Grupo de Trabajo de Tecnología de Aplicaciones de Hipertexto Web (WHATWG).
+
+HTML5 se lanzó por primera vez en formato público el 22 de enero de 2008, con una actualización importante y el estado de 'Recomendación del W3C' en octubre de 2014.Sus objetivos eran mejorar el idioma con soporte para lo último en multimedia y otras características nuevas; mantener el lenguaje fácilmente legible por humanos y consistentemente entendido por computadoras y dispositivos como navegadores web, analizadores, etc., sin la rigidez de XHTML; y seguir siendo compatible con versiones anteriores del software anterior. HTML5 está destinado a subsumir no solo HTML 4 sino también XHTML 1 y DOM Nivel 2 HTML. 
+
+HTML5 incluye modelos de procesamiento detallados para fomentar implementaciones más interoperables; amplía, mejora y racionaliza el marcado disponible para los documentos e introduce el marcado y las interfaces de programación de aplicaciones (API) para aplicaciones web, complejas. Por las mismas razones, HTML5 también es un candidato para aplicaciones móviles multiplataforma porque incluye características diseñadas con dispositivos de baja potencia en mente.
+
+Se incluyen muchas características sintácticas nuevas. Para incluir y manejar de forma nativa contenido multimedia y gráfico, se agregaron los nuevos elementos de video, audio y lienzo, y también se agregó soporte para contenido de gráficos vectoriales escalables (SVG) y MathML para fórmulas matemáticas. Para enriquecer el contenido semántico de los documentos, se agregan nuevos elementos de estructura de página como principal, sección, artículo, encabezado, pie de página, aparte, navegación y figura. Se introdujeron nuevos atributos, se eliminaron algunos elementos y atributos y se cambiaron, re-definieron o estandarizaron otros, como a, cite y menú. Las API y el Modelo de objetos de documento (DOM) son ahora partes fundamentales de la especificación HTML5,y HTML5 también define mejor el procesamiento de cualquier documento no válido. 
+
+
+
+
+
+
+
+https://www.tutorialspoint.com/css/what_is_css.htm 
+Las hojas de estilo en cascada, a las que se hace referencia cariñosamente como CSS, es un lenguaje de diseño simple destinado a simplificar el proceso de hacer que las páginas web sean presentables.
+
+CSS maneja la apariencia y el funcionamiento de una página web. Con CSS, puede controlar el color del texto, el estilo de las fuentes, el espacio entre párrafos, el tamaño y la disposición de las columnas, las imágenes o colores de fondo que se utilizan, los diseños de diseño, las variaciones en la visualización para diferentes dispositivos y tamaños de pantalla. así como una variedad de otros efectos.
+
+CSS es fácil de aprender y comprender, pero proporciona un control poderoso sobre la presentación de un documento HTML. Más comúnmente, CSS se combina con los lenguajes de marcado HTML o XHTML.
+Ventajas de CSS
+
+CSS ahorra tiempo: puede escribir CSS una vez y luego reutilizar la misma hoja en varias páginas HTML. Puede definir un estilo para cada elemento HTML y aplicarlo a tantas páginas web como desee.
+
+Las páginas se cargan más rápido: si usa CSS, no es necesario que escriba atributos de etiquetas HTML cada vez. Simplemente escriba una regla CSS de una etiqueta y aplíquela a todas las apariciones de esa etiqueta. Por lo tanto, menos código significa tiempos de descarga más rápidos.
+
+Fácil mantenimiento: para realizar un cambio global, simplemente cambie el estilo y todos los elementos de todas las páginas web se actualizarán automáticamente.
+
+Estilos superiores a HTML: CSS tiene una gama de atributos mucho más amplia que HTML, por lo que puede darle un aspecto mucho mejor a su página HTML en comparación con los atributos HTML.
+
+Compatibilidad con varios dispositivos: las hojas de estilo permiten optimizar el contenido para más de un tipo de dispositivo. Al usar el mismo documento HTML, se pueden presentar diferentes versiones de un sitio web para dispositivos portátiles como PDA y teléfonos celulares o para imprimir.
+
+Estándares de web globales: ahora los atributos HTML están en desuso y se recomienda utilizar CSS. Por lo tanto, es una buena idea comenzar a usar CSS en todas las páginas HTML para hacerlas compatibles con futuros navegadores.
+
+¿Quién crea y mantiene CSS?
+
+CSS se crea y mantiene a través de un grupo de personas dentro del W3C llamado Grupo de Trabajo de CSS. El Grupo de Trabajo CSS crea documentos llamados especificaciones. Cuando una especificación ha sido discutida y ratificada oficialmente por los miembros del W3C, se convierte en una recomendación.
+
+Estas especificaciones ratificadas se denominan recomendaciones porque el W3C no tiene control sobre la implementación real del lenguaje. Empresas y organizaciones independientes crean ese software.
+
+NOTA: El Consorcio World Wide Web, o W3C, es un grupo que hace recomendaciones sobre cómo funciona Internet y cómo debería evolucionar.
+Versiones CSS
+
+El nivel 1 de hojas de estilo en cascada (CSS1) salió de W3C como una recomendación en diciembre de 1996. Esta versión describe el lenguaje CSS así como un modelo de formato visual simple para todas las etiquetas HTML.
+
+CSS2 se convirtió en una recomendación del W3C en mayo de 1998 y se basa en CSS1. Esta versión agrega soporte para la hoja de estilo, específicamente la para medios, Ej. Impresoras y dispositivos auditivos, fuentes descarga-bles, posicionamiento de elementos y tablas.
+
+
+
+
+MDN 
+https://developer.mozilla.org/es/docs/Learn/CSS/First_steps/What_is_CSS
+  
+¿Qué es el CSS?
+
+
+Las hojas de estilo en cascada (CSS, cascading style sheets) permiten crear páginas web atractivas. Pero ¿cómo funcionan realmente? En este artículo explicaremos qué es el CSS con un ejemplo de sintaxis sencillo y describiremos algunos términos clave sobre este lenguaje.
+Prerrequisitos: 	Conocimientos básicos de informática, tener instalado el software básico, conocimientos básicos de cómo trabajar con archivos y nociones de HTML (véase Introducción al HTML).
+
+
+Objetivo: 	Aprender qué es CSS.
+
+En el módulo Introducción al HTML, exponemos qué es el HTML y cómo se usa para definir documentos destinados a leerse en un navegador web. Los títulos se verán más grandes que el texto y los párrafos empezarán en una línea nueva y habrá un espacio entre ellos. Los enlaces aparecerán en un color diferente y subrayados para distinguirlos del resto del texto. Vienen predeterminados por el navegador y, en la práctica, son estilos muy básicos que el navegador aplica al HTML para asegurarse, básicamente, de que sean legibles incluso si el autor de la página no especifica un estilo explícito.
+
+Los estilos predeterminados utilizados por el navegador
+
+Sin embargo, Internet sería un lugar muy aburrido si todas las páginas web se vieran así. Usando CSS se pueden controlar con precisión cómo se ven los elementos HTML en el navegador, que presentará para las etiquetas de marcado el diseño que cada uno desee.
+¿Para qué sirve el CSS?
+
+Como hemos mencionado, el CSS es un lenguaje informático que especifica cómo se presentan los documentos a los usuarios: cómo se diseñan, compaginan, etc.
+
+Un documento suele ser un archivo de texto estructurado con un lenguaje de marcado: HTML es el más común, pero también existen otros como SVG o XML.
+
+Presentar un documento a un usuario significa convertirlo en un formulario que el público pueda utilizar. Los navegadores, como por ejemplo Firefox, Chrome o Edge, están diseñados para presentar documentos visualmente en una pantalla de ordenador, un proyector o una impresora.
+
+Nota: Un navegador también recibe el nombre de agente de usuario, que consiste en un programa informático que representa a una persona dentro del sistema. Los navegadores son el modelo principal de agente de usuario en el que pensamos cuando hablamos de CSS, pero no son el único. Hay otros documentos de usuario disponibles, como los que convierten documentos HTML y CSS en PDF para imprimir.
+
+El CSS se puede usar para estilos de texto muy básicos como, por ejemplo, cambiar el color y el tamaño de los encabezados y los enlaces. Se puede utilizar para crear un diseño, como podría ser convertir una columna de texto en una composición con un área de contenido principal y una barra lateral para información relacionada. Incluso se puede usar para crear efectos de animación. Echa un vistazo a los enlaces de este párrafo para ver ejemplos específicos.
+Sintaxis del CSS
+
+El CSS es un lenguaje basado en reglas: cada usuario define las reglas que especifican los grupos de estilos que van a aplicarse a elementos particulares o grupos de elementos de la página web. Por ejemplo: «Quiero que el encabezado principal de mi página se muestre en letras grandes de color rojo».
+
+El código siguiente muestra una regla CSS muy simple que proporcionaría el estilo descrito en el párrafo anterior:
+
+h1 {
+    color: red;
+    font-size: 5em;
+}
+
+La regla se abre con un selector. Este selecciona el elemento HTML que vamos a diseñar. En este caso, diseñaremos encabezados de nivel uno (<h1>).
+
+Luego tenemos un conjunto de llaves { }. Entre estas habrá una o más declaraciones, que tomarán la forma de pares de propiedad y valor. Cada par especifica cada una de las propiedades de los elementos seleccionados y el valor que queremos dar a esa propiedad.
+
+Antes de los dos puntos, tenemos la propiedad; y después, el valor. Las propiedades CSS admiten diferentes valores, dependiendo de qué propiedad se esté especificando. En el ejemplo anterior, tenemos la propiedad color, que puede tomar varios valores de color. También tenemos la propiedad de font-size, que puede tomar varias unidades de tamaño como valor.
+
+Una hoja de estilo CSS contendrá muchas de estas reglas, escritas una tras otra.
+
+h1 {
+    color: red;
+    font-size: 5em;
+}
+
+p {
+    color: black;
+}
+
+Algunos valores se aprenden rápidamente, mientras que otros deberán buscarse. Las páginas de propiedades individuales que hay en el proyecto MDN proporcionan una forma rápida de buscar propiedades y sus valores en caso de olvidarlos o desear saber qué más se puede usar como valor.
+
+Nota: Puedes encontrar enlaces a todas las páginas de las propiedades CSS (junto con otras características CSS) enumeradas en la referencia CSS del proyecto MDN. Alternativamente, deberías acostumbrarte a buscar «mdn css-feature-name» en tu motor de búsqueda favorito siempre que necesites obtener más información sobre una función CSS. Por ejemplo, intenta buscar «mdn color» y «mdn font-size».
+Módulos CSS
+
+Como hay tantas cosas que se podrían diseñar usando CSS, el lenguaje se divide en módulos. Verás referencias a estos módulos a medida que explores en MDN y observarás que muchas de las páginas de documentación están organizadas en torno a un módulo en particular. Por ejemplo, puedes echar un vistazo a la referencia MDN del módulo Fondos y bordes para averiguar cuál es su propósito, qué otras propiedades y características diferentes contiene. También encontrarás enlaces a la especificación CSS que define la tecnología (ver más abajo).
+
+En esta fase, no debes preocuparte demasiado sobre cómo se estructura el CSS, sin embargo, puede facilitarte la búsqueda de información si, por ejemplo, sabes que es probable que cierta propiedad se encuentre entre otras similares y, por lo tanto, en la misma especificación. 
+
+Volvamos al módulo de Fondos y bordes para un ejemplo específico: puedes pensar que tiene lógica que las propiedades background-color y border-color se definan en este módulo. Y llevas toda la razón.
+Especificaciones CSS
+
+Todas las tecnologías de estándares web (HTML, CSS, JavaScript, etc.) se definen en extensos documentos denominados especificaciones, publicados por organizaciones de estándares (como W3C, WHATWG, ECMA o Khronos) que definen con precisión cómo se supone que deben comportarse esas tecnologías.
+
+El caso de CSS no es diferente: lo desarrolla un grupo del W3C llamado CSS Working Group. Este grupo está compuesto por representantes de proveedores de navegadores y otras compañías interesadas en CSS. También hay otras personas, conocidas como expertos invitados, que actúan como voces independientes y no están vinculados a ninguna organización.
+
+El CSS Working Group desarrolla o especifica características nuevas del CSS. Algunas veces lo hacen porque un navegador en particular está interesado en alguna capacidad, otras porque los diseñadores y desarrolladores web piden una característica, y otras porque el grupo ha identificado un requisito. El CSS está en desarrollo constante y todos los días presenta nuevas características disponibles. Sin embargo, un elemento clave sobre el CSS es que toda la comunidad se esfuerza mucho en no cambiar nunca nada que pueda perjudicar los sitios web antiguos. ¡Un sitio web creado en el año 2000, que utiliza el poco CSS disponible que había en ese momento, aún debería poder utilizarse hoy en día!
+
+Como recién llegado al CSS, es probable que encuentres las especificaciones abrumadoras: están destinadas a que los ingenieros las utilicen para implementar soporte de sus características en los agentes de usuario en que trabajan, no para que lo lean los desarrolladores web para comprender el CSS. Muchos desarrolladores experimentados preferirán consultar la documentación disponible en MDN u otros tutoriales. Sin embargo, vale la pena saber que existen y comprender la relación que hay entre el CSS que estás utilizando, el soporte del navegador (ver más abajo) y las especificaciones.
+
+
+
+
+https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/
+
+
+Resumen
+
+Los miembros del grupo de trabajo CSS & FP han decidido modularizar la especificación CSS. Esta modularización ayudará a aclarar las relaciones entre las diferentes partes de la especificación y reducirá el tamaño del documento completo. También nos permitirá crear pruebas específicas por módulo y ayudará a los implementadores a decidir qué partes de CSS admitir. Además, la naturaleza modular de la especificación permitirá que los módulos individuales se actualicen según sea necesario, lo que permitirá una evolución más flexible y oportuna de la especificación en su conjunto.
+
+Este documento enumera todos los módulos que se incluirán en la futura especificación CSS3.
+Estado de este documento
+
+Esta es una introducción oficial, emitida por CSS Working Group, que detalla la modularización de la especificación CSS3 y el conjunto de pruebas CSS. Este documento debe considerarse informativo, no normativo. Consulte las páginas de descripción general de estilos para obtener más información sobre el trabajo del W3C en las hojas de estilo, incluido CSS.
+
+Este es un Borrador de Trabajo público del W3C para que lo revisen los miembros del W3C y otras partes interesadas. Como documento borrador, puede ser actualizado, reemplazado u obsoleto por otros documentos en cualquier momento. No es apropiado usar los borradores de trabajo del W3C como material de referencia o citarlos como algo diferente a 'trabajo en progreso'.
+
+Puede encontrar una lista de las Recomendaciones actuales del W3C y otros documentos técnicos, incluidos los borradores de trabajo y las notas, en http://www.w3.org/TR.
+
+Envíe sus comentarios a la lista de correo www-style@w3.org (vea cómo suscribirse) o al editor.
+
+
+
+
+
+Referencias 
+¿Qué es el CSS? (s. f.). developer.mozilla.org. Recuperado 18 de marzo de 2021, de https://developer.mozilla.org/es/docs/Learn/CSS/First_steps/What_is_CSS
+What is CSS? (s. f.). tutorialspoint. Recuperado 18 de marzo de 2021, de https://www.tutorialspoint.com/css/what_is_css.htm
+
+https://spec.whatwg.org/
+
+https://www.w3.org/
+
