@@ -45,6 +45,16 @@
                   w3schools.com
                 </a>
               </li>
+              <li class="w3-padding-large">
+                <a class="w3-hover-text-green" href="https://www.w3.org/" target="_blank">
+                  www.w3.org
+                </a>
+              </li>
+              <li class="w3-padding-large">
+                <a class="w3-hover-text-green" href="https://spec.whatwg.org/" target="_blank">
+                  whatwg.org
+                </a>
+              </li>
             </ul>
             <p>
               Además encontraras muchos fragmentos de  código para que los implementes en tus paginas web

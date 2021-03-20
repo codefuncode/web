@@ -2,21 +2,3 @@ sudo /opt/lampp/lampp start
 
 https://codefuncode.github.io/web/
 
-user.name=Jerry Mouse
-user.email=jerry@tutorialspoint.com
-push.default=nothing
-branch.autosetuprebase=always
-color.ui=true
-color.status=auto
-color.branch=auto
-core.editor=vim
-merge.tool=vimdiff
-
-git config --global user.name="alemandiazcarlos"
-git config --global user.email="alemandiazcarlos@protonmail.com"
-
-git config --global --rename-section user.name="Carlos Alemán"
-
-git config --global user.name
-
-git config --global user.email

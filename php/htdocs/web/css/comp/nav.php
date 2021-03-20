@@ -41,195 +41,195 @@
       <img src="img/all/css3.png"/>
       Introducción
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="00002-sintaxis.php">
+      <img src="img/all/css3.png"/>
+      Sintaxis
+    </a>
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-      <img src="img/all/css3.png"/>
-      xxxxxxxxxxxxxxxx
-    </a>
-    <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="#">
       <img src="img/all/css3.png"/>
       xxxxxxxxxxxxxxxx
     </a>
