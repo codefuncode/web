@@ -169,6 +169,8 @@ Referencias
 ¿Qué es el CSS? (s. f.). developer.mozilla.org. Recuperado 18 de marzo de 2021, de https://developer.mozilla.org/es/docs/Learn/CSS/First_steps/What_is_CSS
 What is CSS? (s. f.). tutorialspoint. Recuperado 18 de marzo de 2021, de https://www.tutorialspoint.com/css/what_is_css.htm
 
+https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS#css_syntax
+
 https://spec.whatwg.org/
 
 https://www.w3.org/

@@ -79,3 +79,6 @@ body {
 .negrita {
     font-weight: bold;
 }
+.pointer {
+    cursor: pointer;
+}

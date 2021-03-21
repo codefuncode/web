@@ -2,6 +2,11 @@
 <html lang="en">
   <?php include_once "comp/heder.php";?>
   <!--End of Tawk.to Script-->
+  <style>
+    .acordeon_item {
+    padding-bottom: 15px;
+    }
+  </style>
   <body>
     <?php include_once 'comp/menu.php';?>
     <!-- Sidebar/menu -->
@@ -34,53 +39,213 @@
               Lo que aprenderás sobre la sintaxis de CSS
             </i>
           </h4>
-          <ul class="w3-ul">
-            <li>
-              Sintaxis CSS
-            </li>
-            <li>
-              Regla CSS
-            </li>
-            <li>
-              Especificidad CSS
-            </li>
-            <li>
-              Herencia CSS
-            </li>
-            <li>
-              Modelo de caja básica CSS
-            </li>
-            <li>
-              Modo de diseño
-            </li>
-            <li>
-              Modelo de formato visual
-            </li>
-            <li>
-              Dominar el colapso de márgenes
-            </li>
-            <li>
-              Valor calculado
-            </li>
-            <li>
-              Valor específico
-            </li>
-            <li>
-              Valor usado
-            </li>
-            <li>
-              Valor actual
-            </li>
-            <li>
-              Sintaxis de definición de valor
-            </li>
-            <li>
-              Propiedades de taquigrafía
-            </li>
-            <li>
-              Elementos reemplazados
-            </li>
-          </ul>
+          <p>
+            Pulsa en los elementos para ver su definición.
+          </p>
+          <div class="w3-container acordeon" style="margin-top: 20px;">
+            <div class="acordeon_item ">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+                Sintaxis CSS
+              </div>
+              <div class="w3-container w3-hide">
+                <h4>
+                  Sintaxis CSS
+                </h4>
+                <p>
+                  El objetivo básico del lenguaje de hojas de estilo en cascada (CSS) es permitir que un motor de navegador pinte elementos de la página con características específicas, como colores, posicionamiento o decoraciones. La sintaxis CSS refleja este objetivo y sus bloques de construcción básicos son:
+                </p>
+                <p>
+                  La propiedad que es un identificador, es decir, un nombre legible por humanos, que define qué característica se considera. El valor que describe cómo el motor debe manejar la característica. Cada propiedad tiene un conjunto de valores válidos, definidos por una gramática formal, así como un significado semántico, implementado por el motor del navegador.
+                </p>
+                <div class="w3-content" style="max-width:500px">
+                  <img class="w3-image w3-card w3-circle" src="img/all/cssdeclaracion.png" style="width: 100%; height: 100%; ">
+                  </img>
+                </div>
+              </div>
+            </div>
+            <div class="acordeon_item ">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+                Regla CSS
+              </div>
+              <div class="w3-container w3-hide">
+                <h4>
+                  xxxxxxxxxxx
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+                </p>
+              </div>
+            </div>
+            <div class="acordeon_item ">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+                Especificidad CSS
+              </div>
+              <div class="w3-container w3-hide">
+                <h4>
+                  xxxxxxxxxxx
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+                </p>
+              </div>
+            </div>
+            <div class="acordeon_item ">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+                Herencia CSS
+              </div>
+              <div class="w3-container w3-hide">
+                <h4>
+                  xxxxxxxxxxx
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+                </p>
+              </div>
+            </div>
+            <div class="acordeon_item ">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+                Modelo de caja básica CSS
+              </div>
+              <div class="w3-container w3-hide">
+                <h4>
+                  xxxxxxxxxxx
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+                </p>
+              </div>
+            </div>
+            <div class="acordeon_item ">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+                Modo de diseño
+              </div>
+              <div class="w3-container w3-hide">
+                <h4>
+                  xxxxxxxxxxx
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+                </p>
+              </div>
+            </div>
+            <div class="acordeon_item ">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+                Modelo de formato visual
+              </div>
+              <div class="w3-container w3-hide">
+                <h4>
+                  xxxxxxxxxxx
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+                </p>
+              </div>
+            </div>
+            <div class="acordeon_item ">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+                Dominar el colapso de márgenes
+              </div>
+              <div class="w3-container w3-hide">
+                <h4>
+                  xxxxxxxxxxx
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+                </p>
+              </div>
+            </div>
+            <div class="acordeon_item ">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+                Valor calculado
+              </div>
+              <div class="w3-container w3-hide">
+                <h4>
+                  xxxxxxxxxxx
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+                </p>
+              </div>
+            </div>
+            <div class="acordeon_item ">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+                Valor específico
+              </div>
+              <div class="w3-container w3-hide">
+                <h4>
+                  xxxxxxxxxxx
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+                </p>
+              </div>
+            </div>
+            <div class="acordeon_item ">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+                Valor usado
+              </div>
+              <div class="w3-container w3-hide">
+                <h4>
+                  xxxxxxxxxxx
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+                </p>
+              </div>
+            </div>
+            <div class="acordeon_item ">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+                Valor actual
+              </div>
+              <div class="w3-container w3-hide">
+                <h4>
+                  xxxxxxxxxxx
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+                </p>
+              </div>
+            </div>
+            <div class="acordeon_item ">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+                Sintaxis de definición de valor
+              </div>
+              <div class="w3-container w3-hide">
+                <h4>
+                  xxxxxxxxxxx
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+                </p>
+              </div>
+            </div>
+            <div class="acordeon_item ">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+                Propiedades de taquigrafía
+              </div>
+              <div class="w3-container w3-hide">
+                <h4>
+                  xxxxxxxxxxx
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+                </p>
+              </div>
+            </div>
+            <div class="acordeon_item ">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+                Elementos reemplazados
+              </div>
+              <div class="w3-container w3-hide">
+                <h4>
+                  xxxxxxxxxxx
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="w3-container">
           <?php include "comp/pie.php";?>
@@ -88,5 +253,8 @@
       </div>
     </div>
     <?php include "comp/slidebar.php";?>
+    <script type="text/javascript">
+      Acordeon_Sintaxis();
+    </script>
   </body>
 </html>

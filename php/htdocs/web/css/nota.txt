@@ -1,3 +1,10 @@
+
+Definiciones 
+https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax#see_also
+
+
+
+
 Esta pagina esta dedicada a la escritura de CSS y se abarca desde la sintaxis básica hasta la implementación de algunos marcos de trabajo que utilizo para generar interfaces bonitas y atractivas para le usuario. 
 
 Podrás encontrar contenido que utilizo de referencias para mis trabajos aquí:
@@ -349,3 +356,51 @@ Colores CSS
 Valores de color CSS
 Valores predeterminados de CSS
 Soporte de navegador CSS
+
+<!--  <ul class="w3-ul">
+<li>
+Sintaxis CSS
+</li>
+<li>
+Regla CSS
+</li>
+<li>
+Especificidad CSS
+</li>
+<li>
+Herencia CSS
+</li>
+<li>
+Modelo de caja básica CSS
+</li>
+<li>
+Modo de diseño
+</li>
+<li>
+Modelo de formato visual
+</li>
+<li>
+Dominar el colapso de márgenes
+</li>
+<li>
+Valor calculado
+</li>
+<li>
+Valor específico
+</li>
+<li>
+Valor usado
+</li>
+<li>
+Valor actual
+</li>
+<li>
+Sintaxis de definición de valor
+</li>
+<li>
+Propiedades de taquigrafía
+</li>
+<li>
+Elementos reemplazados
+</li>
+</ul> -->
