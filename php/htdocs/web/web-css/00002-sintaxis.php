@@ -1,34 +1,7 @@
 <!DOCTYPE html>
-<html>
-  <title>
-    #codefuncode
-  </title>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-  <link href="../../../css/w3.css" rel="stylesheet" type="text/css"/>
-  <link href="../../../css/css.css" rel="stylesheet" type="text/css"/>
-  <script src="../../../js/jquery.min.js" type="text/javascript">
-  </script>
-  <script src="../../../js/js.js" type="text/javascript">
-  </script>
-  <!--Start of Tawk.to Script-->
-  <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/60497c6d385de407571ed91f/1f0fgs417';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-  </script>
+<html lang="en">
+  <?php include_once "comp/heder.php";?>
   <!--End of Tawk.to Script-->
-  <style>
-    html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
-  </style>
   <style>
     .acordeon_item {
     padding-bottom: 15px;
@@ -48,263 +21,17 @@ s0.parentNode.insertBefore(s1,s0);
     margin-bottom: 10px;
     }
   </style>
-  <body class="w3-light-grey">
-    <!-- Top container -->
-    <div class="w3-bar w3-top w3-large" style="z-index:4;background: rgba(0, 0, 0, 0) linear-gradient(80deg, rgb(99, 223, 18), rgb(190, 217, 74)) repeat scroll 0% 0%;">
-      <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();">
-        <i class="fa fa-bars">
-        </i>
-        Menu
-      </button>
-      <span class="w3-bar-item w3-right">
-        #codefuncode
-      </span>
-    </div>
+  <body>
+    <?php include_once 'comp/menu.php';?>
     <!-- Sidebar/menu -->
-    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" id="mySidebar" style="z-index:3;width:300px; margin-top: .01%;">
-      <br/>
-      <div class="w3-container w3-row">
-        <div class="w3-col s4">
-          <img class="w3-circle w3-margin-right" src="../../../img/tux/075.png" style="width:70px; height: 70px;"/>
-        </div>
-        <div class="w3-col s8 w3-bar menux">
-          <span>
-            Bienvenido a
-            <br/>
-            <strong>
-              Código Divertido
-            </strong>
-          </span>
-          <br/>
-          <a class="w3-bar-item facebook" href="https://www.facebook.com/codefuncode/" target="_blank">
-            <img alt="" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2016%2F07%2FFacebook-Download-PNG.png&f=1&nofb=1"/>
-          </a>
-          <a class="w3-bar-item " href="https://github.com/codefuncode" target="_blank">
-            <img alt="" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fbrettbeauregard.com%2Fblog%2Fwp-content%2Fuploads%2F2011%2F12%2Fgithub-300x300.png&f=1&nofb=1"/>
-          </a>
-        </div>
-      </div>
-      <hr/>
-      <div class="w3-container">
-        <h5>
-          Pruebas
-        </h5>
-      </div>
-      <div class="w3-bar-block menux">
-        <a class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" href="#" onclick="w3_close()" title="close menu">
-          <i class="fa fa-remove fa-fw">
-          </i>
-          Cerrar menú
-        </a>
-        <a class="w3-bar-item w3-button w3-padding " href="#">
-          <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.kt7ztd0AwJWy9sm_MDg6AQHaEu%26pid%3DApi&f=1"/>
-          Home
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="#">
-          <img src="../../../img/all/css3.png"/>
-          Introducción
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <a class="w3-bar-item w3-button w3-padding" href="" target="_blank">
-          <img src="../../../img/all/css3.png"/>
-          xxxxxxxxxxxxxxxx
-        </a>
-        <br/>
-        <br/>
-      </div>
-    </nav>
+    <?php include_once 'comp/nav.php'?>
     <!-- Overlay effect when opening sidebar on small screens -->
     <div class="w3-overlay w3-hide-large w3-animate-opacity" id="myOverlay" onclick="w3_close()" style="cursor:pointer" title="close side menu">
     </div>
     <!-- !PAGE CONTENT! -->
     <div class="w3-main" style="margin-left:300px;margin-top:43px;">
+      <!-- Header -->
+      <!-- w3-padding-large -->
       <div class="w3-container ">
         <header class="w3-container" style="padding-top:22px">
           <h1 class="w3-serif">
@@ -332,7 +59,7 @@ s0.parentNode.insertBefore(s1,s0);
           </p>
           <div class="w3-container acordeon" style="margin-top: 20px;">
             <div class="acordeon_item ">
-              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
                 Sintaxis CSS
               </div>
               <div class="w3-container w3-hide">
@@ -612,65 +339,9 @@ s0.parentNode.insertBefore(s1,s0);
         </div>
       </div>
     </div>
-    <!-- End page content -->
-    <script>
-      // Get the Sidebar
-        var mySidebar = document.getElementById("mySidebar");
-
-        // Get the DIV with overlay effect
-        var overlayBg = document.getElementById("myOverlay");
-
-        // Toggle between showing and hiding the sidebar, and add overlay effect
-        function w3_open() {
-        if (mySidebar.style.display === 'block') {
-        mySidebar.style.display = 'none';
-        overlayBg.style.display = "none";
-        } else {
-        mySidebar.style.display = 'block';
-        overlayBg.style.display = "block";
-        }
-        }
-
-        // Close the sidebar with the close button
-        function w3_close() {
-        mySidebar.style.display = "none";
-        overlayBg.style.display = "none";
-        }
-
-        function Acordeon_Sintaxis(argument) {
-
-        // let element = document.querySelectorAll(".acordeon_item");
-        let btn = document.querySelectorAll(".btn_sintaxis_css");
-        let context = [];
-
-        for (var i = 0; i < btn.length; i++) {
-        btn[i].addEventListener("click", function(argument) {
-
-        // this..parentElement
-
-        for (var i = 0; i < this.parentElement.childNodes.length; i++) {
-
-        if (this.parentElement.childNodes[i].nodeName == "#text") {
-
-        } else {
-        context.push(this.parentElement.childNodes[i]);
-
-        }
-
-        }
-
-        if (context[1].className.indexOf("w3-show") == -1) {
-        context[1].className += " w3-show";
-        } else {
-        context[1].className = context[1].className.replace(" w3-show", "");
-        }
-        context = [];
-
-        });
-        }
-
-        }
-        Acordeon_Sintaxis();
+    <?php include "comp/slidebar.php";?>
+    <script type="text/javascript">
+      Acordeon_Sintaxis();
     </script>
   </body>
 </html>

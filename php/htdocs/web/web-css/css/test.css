@@ -1,0 +1,12 @@
+/*.acordeon_item {
+    padding-bottom: 15px;
+}
+.acordeon .w3-container h4 {
+    font-weight: bold;
+    margin-top: 200px !important;
+    color: blue;
+}*/
+
+.acordeon .w3-container li {
+    margin-bottom: 10px;
+}

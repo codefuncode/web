@@ -1,5 +1,21 @@
-﻿sudo /opt/lampp/lampp start
+sudo /opt/lampp/lampp start
 
 https://codefuncode.github.io/web/
 ====================================================================================================
 
+Aquí les muestro como voy  trabajando  con el responsivo de mi pagina web para proveer material para el curso de desarrollo de aplicaciones web. Disculpen  pero mi audio es fatal. :)
+
+Mejor dicho  en las tutorías uno a uno personalizadas que ofrezco. Me puedes encontrar como 
+#codefuncode
+#tutorwebenlinea
+#alemandiazcarlos 
+
+#alemandiazcarlos
+#codefuncode
+@codigodivertido
+
+@tutorwebenlinea 
+
+La programación esta lista para que la entiendas y te sea sencillo crear aplicaciones web 
+
+Debido al alto volumen de mensajes a raíz de mi campaña publicitaria para proveer servicios de desarrollo de aplicaciones web y la capacitación, para la creación de las mismas. Les recomiendo escribirme atreves de Twitter https://twitter.com/codefuncode Para coordinar citas de seguimiento.
