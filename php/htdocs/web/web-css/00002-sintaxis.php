@@ -2,26 +2,42 @@
 <html lang="en">
   <?php include_once "comp/heder.php";?>
   <!--End of Tawk.to Script-->
-  <style>
-    .acordeon_item {
-    padding-bottom: 15px;
-    }
-    .pointer{
-      padding: 13px !important;
-    }
-    .acordeon .w3-container h4 {
-    font-weight: bold;
-    margin-top: 40px ;
-    /*color: white !important ;*/
-    /*text-shadow: 2px 2px 4px #68DF15; */
-    /*text-shadow: 2px 2px 4px #68DF15;*/
-
-    }
-    .acordeon .w3-container li {
-    margin-bottom: 10px;
-    }
-  </style>
   <body>
+    <style>
+      .acordeon_item {
+        padding-bottom: 15px;
+        }
+        .pointer{
+        padding: 13px !important;
+        }
+        .acordeon .w3-container h4 {
+        font-weight: bold;
+        margin-top: 40px ;
+        /*color: white !important ;*/
+        /*text-shadow: 2px 2px 4px #68DF15; */
+        /*text-shadow: 2px 2px 4px #68DF15;*/
+
+        }
+        .acordeon .w3-container li {
+        margin-bottom: 10px;
+        }
+        .en_desuso {
+        /*text-decoration:line-through;*/
+        /*color:  #ff8c66;*/
+           /*text-shadow: 1px 1px black;*/
+        }      .experimental {
+        /*text-decoration:line-through;*/
+        /*color: #4da6ff;*/
+         /*text-shadow: 1px 1px black;*/
+        }
+
+        .depercated_icon{
+        width: 20px; height: 20px;
+        }
+        .negrita{
+          font-weight: bold;
+        }
+    </style>
     <?php include_once 'comp/menu.php';?>
     <!-- Sidebar/menu -->
     <?php include_once 'comp/nav.php'?>
@@ -31,7 +47,6 @@
     <!-- !PAGE CONTENT! -->
     <div class="w3-main" style="margin-left:300px;margin-top:43px;">
       <!-- Header -->
-      <!-- w3-padding-large -->
       <div class="w3-container ">
         <header class="w3-container" style="padding-top:22px">
           <h1 class="w3-serif">
@@ -59,7 +74,7 @@
           </p>
           <div class="w3-container acordeon" style="margin-top: 20px;">
             <div class="acordeon_item ">
-              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css ">
                 Sintaxis CSS
               </div>
               <div class="w3-container w3-hide">
@@ -143,41 +158,242 @@
                 <p>
                   Hay otro grupo de declaraciones: las declaraciones anidadas. Estas son declaraciones que se pueden usar en un subconjunto específico de reglas at: las reglas de grupo condicional. Estas declaraciones solo se aplican si se cumple una condición específica: el contenido de @media at-rule se aplica solo si el dispositivo en el que se ejecuta el navegador coincide con la condición expresada; el contenido de @document at-rule se aplica solo si la página actual cumple algunas condiciones, y así sucesivamente. En CSS1 y CSS2.1, solo se pueden usar conjuntos de reglas dentro de las reglas de grupo condicionales. Eso fue muy restrictivo y esta restricción se eliminó en CSS Conditionals Level 3. Ahora, aunque todavía es experimental y no es compatible con todos los navegadores, las reglas de grupo condicionales pueden contener una gama más amplia de contenido: conjuntos de reglas, pero también algunas, pero no todas, reglas at .
                 </p>
-                <p style="margin-bottom:30px;">
-                  <cite>
-                    Syntax - CSS: Cascading Style Sheets | MDN. (2021, 20 enero). MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax
-                  </cite>
-                </p>
+                <!--   <p style="margin-bottom:30px;">
+                </p> -->
               </div>
             </div>
             <div class="acordeon_item ">
-              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
                 Regla CSS
               </div>
               <div class="w3-container w3-hide">
                 <h4>
-                  xxxxxxxxxxx
+                  Normas
                 </h4>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+                  Las reglas at son declaraciones CSS que instruyen a CSS sobre cómo comportarse. Comienzan con un signo arroba, '@' , seguido de un identificador e incluye todo hasta el siguiente punto y coma, ';' , o el siguiente bloque CSS, lo que ocurra primero.
                 </p>
+                <div class="">
+                  <div class="w3-code cssHigh notranslate ">
+                    /* Estructura general */
+                    <br/>
+                    @IDENTIFIER (RULE);
+                    <br/>
+                    /* Ejemplo: le dice al navegador
+                    <br/>
+                    que use el juego de caracteres UTF-8 */
+                    <br/>
+                    @charset "utf-8";
+                    <br/>
+                  </div>
+                </div>
+                <p>
+                  Hay varias reglas at regulares, designadas por sus identificadores, cada una con una sintaxis diferente:
+                </p>
+                <ul>
+                  <li>
+                    <span style="font-weight: bold;">
+                      @charset:
+                    </span>
+                    Define el conjunto de caracteres utilizado por la hoja de estilo.
+                  </li>
+                  <li>
+                    <span style="font-weight: bold; ">
+                      @import:
+                    </span>
+                    Le dice al motor CSS que incluya una hoja de estilo externa.
+                  </li>
+                  <li>
+                    <span style="font-weight: bold; ">
+                      @namespace:
+                    </span>
+                    Le dice al motor CSS que todo su contenido debe considerarse como prefijo con un espacio de nombres XML.
+                  </li>
+                </ul>
+                <h4>
+                  Anidado
+                </h4>
+                <div class="">
+                  <div class="w3-code cssHigh notranslate ">
+                    @IDENTIFIER (RULE) {
+                    <br/>
+                    <br/>
+                    }
+                    <br/>
+                    <br/>
+                  </div>
+                </div>
+                <p>
+                  Un subconjunto de declaraciones anidadas, que se puede utilizar como una declaración de una hoja de estilo, así como dentro de las reglas de grupo condicionales.
+                </p>
+                <ul>
+                  <li>
+                    <span style="font-weight: bold;">
+                      @media:
+                    </span>
+                    Una regla de grupo condicional que aplicará su contenido si el dispositivo cumple los criterios de la condición definida mediante una consulta de medios.
+                  </li>
+                  <li>
+                    <span style="font-weight: bold;">
+                      @supports:
+                    </span>
+                    una regla de grupo condicional que aplicará su contenido si el navegador cumple los criterios de la condición dada.
+                  </li>
+                  <li class="en_desuso">
+                    <span style="font-weight: bold;">
+                      @document:
+                    </span>
+                    Una regla de grupo condicional que aplicará su contenido si el documento en el que se aplica la hoja de estilo cumple los criterios de la condición dada. (diferido al nivel 4 de la especificación CSS)
+                    <img class="depercated_icon w3-image" src="../../img/all/trach.png"/>
+                  </li>
+                  <li>
+                    <span style="font-weight: bold;">
+                      @page:
+                    </span>
+                    Describe el aspecto de los cambios de diseño que se aplicarán al imprimir el documento.
+                  </li>
+                  <li>
+                    <span style="font-weight: bold;">
+                      @font-face:
+                    </span>
+                    Describe el aspecto de una fuente externa que se va a descargar.
+                  </li>
+                  <li>
+                    <span style="font-weight: bold;">
+                      @keyframes:
+                    </span>
+                    Describe el aspecto de los pasos intermedios en una secuencia de animación CSS.
+                  </li>
+                  <li class="en_desuso">
+                    <span style="font-weight: bold;">
+                      @viewport:
+                    </span>
+                    Describe los aspectos de la ventana gráfica para dispositivos de pantalla pequeña. (actualmente en la etapa de Borrador de Trabajo)
+                  </li>
+                  <li>
+                    <span style="font-weight: bold;">
+                      @counter-style:
+                    </span>
+                    Define estilos de contador específicos que no forman parte del conjunto predefinido de estilos. (en la etapa de recomendación candidata, pero solo implementado en Gecko en el momento de la redacción)
+                  </li>
+                  <li>
+                    <span style="font-weight: bold;">
+                      @font-feature-values  ​​(más @swash, @ornaments, @annotation, @stylistic, @styleset y @ character-variant):
+                    </span>
+                    Defina nombres comunes en font-variant-alternates para la función activada de manera diferente en OpenType. (en la etapa de recomendación candidata, pero solo implementado en Gecko en el momento de la redacción)
+                  </li>
+                  <li class="experimental">
+                    <span style="font-weight: bold;">
+                      @property:
+                    </span>
+                    Describe el aspecto de las propiedades y variables personalizadas. (actualmente en la etapa de Borrador de Trabajo)
+                    <img class="depercated_icon w3-image" src="../../img/all/tuboensayo.png"/>
+                  </li>
+                </ul>
+                <h4>
+                  Reglas de grupo condicionales
+                </h4>
+                <p>
+                  Al igual que los valores de las propiedades, cada regla at tiene una sintaxis diferente. No obstante, varios de ellos pueden agruparse en una categoría especial denominada reglas de grupo condicionales. Estas declaraciones comparten una sintaxis común y cada una de ellas puede incluir declaraciones anidadas, ya sean conjuntos de reglas o reglas at anidadas. Además, todos transmiten un significado semántico común: todos vinculan algún tipo de condición, que en cualquier momento se evalúa como verdadera o falsa. Si la condición se evalúa como verdadera, se aplicarán todas las declaraciones dentro del grupo.
+                </p>
+                <p>
+                  Las reglas de grupo condicionales se definen en CSS Conditionals Level 3 y son:
+                </p>
+                <ul>
+                  <li>
+                    @media
+                  </li>
+                  <li>
+                    @supports
+                  </li>
+                  <li>
+                    @document (diferido al nivel 4 de la especificación CSS)
+                    <img class="depercated_icon w3-image" src="../../img/all/trach.png"/>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- -->
+            <div class="acordeon_item ">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
+                Comentarios en CSS
+              </div>
+              <div class="w3-container w3-hide">
+                <h4>
+                  Comentarios
+                </h4>
+                <p>
+                  Un comentario CSS se utiliza para agregar notas explicativas al código o para evitar que el navegador interprete partes específicas de la hoja de estilo. Por diseño, los comentarios no tienen ningún efecto sobre el diseño de un documento.
+                </p>
+                <h4>
+                  Sintaxis
+                </h4>
+                <p>
+                  Los comentarios se pueden colocar donde se permita el espacio en blanco dentro de una hoja de estilo. Se pueden utilizar en una sola línea o atravesar varias líneas.
+                </p>
+                <div class="">
+                  <div class="w3-code cssHigh notranslate">
+                    /* A one-line comment */
+                    <br/>
+                    <br/>
+                    /*
+                    <br/>
+                    Un comentario
+                    <br/>
+                    que se estira
+                    <br/>
+                    sobre muchos
+                    <br/>
+                    líneas
+                    <br/>
+                    */
+                    <br/>
+                    <br/>
+                    /* El comentario a continuación se usa para deshabilitar un estilo específico */
+                    <br/>
+                    <br/>
+                    /*
+                    <br/>
+                    span {
+                    <br/>
+                    color: blue;
+                    <br/>
+                    font-size: 1.5em;
+                    <br/>
+                    }
+                    <br/>
+                    */
+                    <br/>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="acordeon_item ">
-              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
                 Especificidad CSS
               </div>
               <div class="w3-container w3-hide">
                 <h4>
-                  xxxxxxxxxxx
+                  Especificidad
                 </h4>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+                  La especificidad es el medio por el cual los navegadores deciden qué valores de propiedad CSS son los más relevantes para un elemento y, por lo tanto, se aplicarán. La especificidad se basa en las reglas de coincidencia que se componen de diferentes tipos de selectores CSS.
                 </p>
+                <h4>
+                  ¿Cómo se calcula la especificidad?
+                </h4>
+                <p>
+                  La especificidad es un peso que se aplica a una declaración CSS dada, determinada por el número de cada tipo de selector en el selector coincidente. Cuando varias declaraciones tienen la misma especificidad, la última declaración encontrada en el CSS se aplica al elemento. La especificidad solo se aplica cuando el mismo elemento es el objetivo de varias declaraciones. Según las reglas de CSS, los elementos directamente dirigidos siempre tendrán prioridad sobre las reglas que un elemento hereda de su antepasado.
+                </p>
+                <div class="w3-panel w3-pale-blue w3-leftbar w3-border-blue w3-section">
+                  <p class="negrita">
+                    Nota: la proximidad de los elementos en el árbol del documento no tiene ningún efecto sobre la especificidad.
+                  </p>
+                </div>
               </div>
             </div>
             <div class="acordeon_item ">
-              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
                 Herencia CSS
               </div>
               <div class="w3-container w3-hide">
@@ -190,7 +406,7 @@
               </div>
             </div>
             <div class="acordeon_item ">
-              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
                 Modelo de caja básica CSS
               </div>
               <div class="w3-container w3-hide">
@@ -203,7 +419,7 @@
               </div>
             </div>
             <div class="acordeon_item ">
-              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
                 Modo de diseño
               </div>
               <div class="w3-container w3-hide">
@@ -216,7 +432,7 @@
               </div>
             </div>
             <div class="acordeon_item ">
-              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
                 Modelo de formato visual
               </div>
               <div class="w3-container w3-hide">
@@ -229,7 +445,7 @@
               </div>
             </div>
             <div class="acordeon_item ">
-              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
                 Dominar el colapso de márgenes
               </div>
               <div class="w3-container w3-hide">
@@ -242,7 +458,7 @@
               </div>
             </div>
             <div class="acordeon_item ">
-              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
                 Valor calculado
               </div>
               <div class="w3-container w3-hide">
@@ -255,7 +471,7 @@
               </div>
             </div>
             <div class="acordeon_item ">
-              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
                 Valor específico
               </div>
               <div class="w3-container w3-hide">
@@ -268,7 +484,7 @@
               </div>
             </div>
             <div class="acordeon_item ">
-              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
                 Valor usado
               </div>
               <div class="w3-container w3-hide">
@@ -281,7 +497,7 @@
               </div>
             </div>
             <div class="acordeon_item ">
-              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
                 Valor actual
               </div>
               <div class="w3-container w3-hide">
@@ -294,7 +510,7 @@
               </div>
             </div>
             <div class="acordeon_item ">
-              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
                 Sintaxis de definición de valor
               </div>
               <div class="w3-container w3-hide">
@@ -307,7 +523,7 @@
               </div>
             </div>
             <div class="acordeon_item ">
-              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
                 Propiedades de taquigrafía
               </div>
               <div class="w3-container w3-hide">
@@ -320,7 +536,7 @@
               </div>
             </div>
             <div class="acordeon_item ">
-              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
                 Elementos reemplazados
               </div>
               <div class="w3-container w3-hide">
@@ -342,6 +558,48 @@
     <?php include "comp/slidebar.php";?>
     <script type="text/javascript">
       Acordeon_Sintaxis();
+      function Acordeon_Sintaxis(argument) {
+      // let element = document.querySelectorAll(".acordeon_item");
+      let btn = document.querySelectorAll(".btn_sintaxis_css");
+       let context = [];
+
+      for (var i = 0; i < btn.length; i++) {
+      btn[i].addEventListener("click", function(argument) {
+
+        console.log(this);
+
+      // this..parentElement
+
+      for (var i = 0; i < this.parentElement.childNodes.length; i++) {
+
+      if (this.parentElement.childNodes[i].nodeName == "#text") {
+
+      } else {
+      context.push(this.parentElement.childNodes[i]);
+
+      }
+
+      }
+
+      if (context[1].className.indexOf("w3-show") == -1) {
+      context[1].className += " w3-show";
+      } else {
+      context[1].className = context[1].className.replace(" w3-show", "");
+      }
+       console.log(context);
+        context = [];
+
+      });
+
+
+      }
+
+      }
+    </script>
+    <script src="https://www.w3schools.com/lib/w3codecolor.js">
+    </script>
+    <script type="text/javascript">
+      w3CodeColor();
     </script>
   </body>
 </html>

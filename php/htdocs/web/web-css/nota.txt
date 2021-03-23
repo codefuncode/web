@@ -1,13 +1,16 @@
 Referencias 
 
+Definiciones 
+https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax#see_also
 
 la sintaxis
 https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax
+ 
+
+las reglas
+https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule
 
 
-
-Definiciones 
-https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax#see_also
 
 
 

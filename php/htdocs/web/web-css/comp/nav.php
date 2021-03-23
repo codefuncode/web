@@ -21,10 +21,9 @@
       </a>
     </div>
   </div>
-  <hr/>
   <div class="w3-container">
     <h5>
-      Pruebas
+      Curso de CSS
     </h5>
   </div>
   <div class="w3-bar-block menux">
@@ -33,7 +32,7 @@
       </i>
       Cerrar menú
     </a>
-    <a class="w3-bar-item w3-button w3-padding " href="#">
+    <a class="w3-bar-item w3-button w3-padding " href="index.php">
       <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.kt7ztd0AwJWy9sm_MDg6AQHaEu%26pid%3DApi&f=1"/>
       Home
     </a>

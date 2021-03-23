@@ -1,1 +1,22 @@
-borrador.txt
+
+
+
+        <style>
+    .acordeon_item {
+    padding-bottom: 15px;
+    }
+    .pointer{
+      padding: 13px !important;
+    }
+    .acordeon .w3-container h4 {
+    font-weight: bold;
+    margin-top: 40px ;
+    /*color: white !important ;*/
+    /*text-shadow: 2px 2px 4px #68DF15; */
+    /*text-shadow: 2px 2px 4px #68DF15;*/
+
+    }
+    .acordeon .w3-container li {
+    margin-bottom: 10px;
+    }
+  </style>

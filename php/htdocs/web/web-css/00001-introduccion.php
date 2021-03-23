@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <?php include_once "../../comp/heder.php";?>
+  <?php include_once "comp/heder.php";?>
   <!--End of Tawk.to Script-->
   <body>
-    <?php include_once '../../comp/menu.php';?>
+    <?php include_once 'comp/menu.php';?>
     <!-- Sidebar/menu -->
-    <?php include_once '../../comp/nav.php'?>
+    <?php include_once 'comp/nav.php'?>
     <!-- Overlay effect when opening sidebar on small screens -->
     <div class="w3-overlay w3-hide-large w3-animate-opacity" id="myOverlay" onclick="w3_close()" style="cursor:pointer" title="close side menu">
     </div>
@@ -37,10 +37,10 @@
           </p>
         </div>
         <div class="w3-container">
-          <?php include "../../comp/pie.php";?>
+          <?php include "comp/pie.php";?>
         </div>
       </div>
     </div>
-    <?php include "../../comp/slidebar.php";?>
+    <?php include "comp/slidebar.php";?>
   </body>
 </html>
