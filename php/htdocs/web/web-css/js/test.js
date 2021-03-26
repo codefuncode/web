@@ -40,4 +40,26 @@
 
      }
 
-     acordeon();
+     function imagen_modal(argument) {
+         let image_click = document.querySelectorAll(".image_click");
+         let modal = document.getElementById("modal");
+         let modal_image = document.getElementById("modal_image");
+         let btn_modal_close = document.getElementById("btn_modal_close");
+
+         console.log(image_click);
+
+         for (var i = 0; i < image_click.length; i++) {
+             image_click[i].addEventListener("click", function(argument) {
+                 console.log(this.src);
+                 modal_image.src = this.src;
+                 modal.style.display = "block";
+
+             })
+         }
+
+         btn_modal_close.addEventListener("click", function(argument) {
+             modal.style.display = "none";
+         })
+     }
+     // 
+     imagen_modal();

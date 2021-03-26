@@ -548,6 +548,24 @@
                 </p>
               </div>
             </div>
+            <!--          <div class="w3-container">
+              <h2>
+                W3.CSS Animated Modal
+              </h2>
+              <button class="w3-button w3-black" onclick="document.getElementById('id01').style.display='block'">
+                Fade In Modal
+              </button>
+              <div class="w3-modal w3-animate-opacity" id="id01">
+                <div class="w3-modal-content w3-card-4" style="width: 95%; height:50%;">
+                  <header class="w3-container w3-teal">
+                    <span class="w3-button w3-large w3-display-topright" onclick="document.getElementById('id01').style.display='none'">
+                      ×
+                    </span>
+                  </header>
+                  <img class="w3-image" src="img/all/cssdeclaracion.png" style="width: 100%; height: 100%;"/>
+                </div>
+              </div>
+            </div> -->
           </div>
         </div>
         <div class="w3-container">
