@@ -49,15 +49,15 @@
       <img src="img/all/js.png"/>
       Curso de JS
     </a>
-    <a class="w3-bar-item w3-button w3-padding w3-disabled" href="web/php/index.php" >
+    <a class="w3-bar-item w3-button w3-padding w3-disabled" href="web/php/index.php">
       <img src="img/all/php.png"/>
       Curso de PHP
     </a>
-    <a class="w3-bar-item w3-button w3-padding w3-disabled" href="web/mysql/index.php" >
+    <a class="w3-bar-item w3-button w3-padding w3-disabled" href="web/mysql/index.php">
       <img src="img/all/mysql.png"/>
       Curso de MySQL
     </a>
-    <a class="w3-bar-item w3-button w3-padding w3-disabled" href="web/cliente/index.php" >
+    <a class="w3-bar-item w3-button w3-padding w3-disabled" href="web/cliente/index.php">
       <img src="img/all/194931.png"/>
       Zona de clientes
     </a>
@@ -68,6 +68,15 @@
     <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Plantillas/" target="_blank">
       <img src="img/all/codedoc.png"/>
       Plantillas disponibles
+    </a>
+    <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Traduccion/" target="_blank">
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn0.iconfinder.com%2Fdata%2Ficons%2Feducation-8%2F512%2Freading_book-512.png&f=1&nofb=1"/>
+      Traducciones de libros
+      <span class="w3-tag w3-round" style=" background-color: #9CDB35 !important; padding: 3px;">
+        <span class="w3-tag w3-round w3-border w3-border-white" style=" background-color: #9CDB35 !important; color: black !important;">
+          Nuevo
+        </span>
+      </span>
     </a>
     <br/>
     <br/>

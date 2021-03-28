@@ -1,6 +1,6 @@
 <head>
   <title>
-    codefuncode
+    #codefuncode
   </title>
   <meta charset="utf-8"/>
   <link href="img/tux/075.png" rel="shortcut icon" type="image/png"/>
@@ -19,6 +19,6 @@
   <?php include_once 'chat.php'?>
   <!--   <body class="w3-light-grey">
     Start of Tawk.to Script
-  
+
   </body> -->
 </head>
