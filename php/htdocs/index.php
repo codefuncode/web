@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <?php include_once "comp/heder.php";?>
+  <?php include_once "comp/head.php";?>
   <!--End of Tawk.to Script-->
   <body>
     <?php include_once 'comp/menu.php';?>
@@ -12,8 +12,9 @@
     <!-- !PAGE CONTENT! -->
     <div class="w3-main" style="margin-left:300px;margin-top:43px;">
       <!-- Header -->
-      <div class="w3-container w3-padding-large">
+        <div class="w3-container w3-stretch">
         <header class="w3-container" style="">
+          <?php include_once "comp/header.php";?>
           <?php include_once "comp/webenconstruccion.php";?>
         </header>
         <div class="w3-row-padding w3-margin-bottom w3-hide-small">
@@ -48,40 +49,7 @@
           <div class="">
           </div>
         </div>
-        <footer class="w3-container w3-dark-grey w3-padding">
-          <div class="w3-row">
-            <div class="w3-container w3-third">
-              <h5 class="w3-bottombar w3-border-green">
-                Maqueado y estilo para la web
-              </h5>
-              <p>
-                HTML
-              </p>
-              <p>
-                CSS
-              </p>
-            </div>
-            <div class="w3-container w3-third">
-              <h5 class="w3-bottombar w3-border-red">
-                Inteligencia y comportamiento
-              </h5>
-              <p>
-                JavaScript
-              </p>
-              <p>
-                PHP
-              </p>
-            </div>
-            <div class="w3-container w3-third">
-              <h5 class="w3-bottombar w3-border-orange">
-                Almacenamiento de datos
-              </h5>
-              <p>
-                MySQL
-              </p>
-            </div>
-          </div>
-        </footer>
+      <?php include_once "comp/pie.php";?>
       </div>
     </div>
     <!-- End page content -->

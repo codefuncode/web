@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <?php include_once "comp/heder.php";?>
+  <?php include_once "comp/head.php";?>
   <!--End of Tawk.to Script-->
   <body>
     <style>
@@ -37,6 +37,14 @@
         .negrita{
           font-weight: bold;
         }
+        .cssHigh{
+          border-color: #9CDB35 !important ;
+        }
+
+       .important ol {list-style-type: upper-roman;}
+       ol,ul{
+        font-weight: bold;
+       }
     </style>
     <?php include_once 'comp/menu.php';?>
     <!-- Sidebar/menu -->
@@ -47,7 +55,7 @@
     <!-- !PAGE CONTENT! -->
     <div class="w3-main" style="margin-left:300px;margin-top:43px;">
       <!-- Header -->
-      <div class="w3-container ">
+      <div class="w3-container w3-stretch">
         <header class="w3-container" style="padding-top:22px">
           <h1 class="w3-serif">
             <i>
@@ -174,7 +182,7 @@
                   Las reglas at son declaraciones CSS que instruyen a CSS sobre cómo comportarse. Comienzan con un signo arroba, '@' , seguido de un identificador e incluye todo hasta el siguiente punto y coma, ';' , o el siguiente bloque CSS, lo que ocurra primero.
                 </p>
                 <div class="">
-                  <div class="w3-code cssHigh notranslate ">
+                  <div class="w3-code cssHigh notranslate">
                     /* Estructura general */
                     <br/>
                     @IDENTIFIER (RULE);
@@ -369,7 +377,7 @@
               </div>
             </div>
             <div class="acordeon_item ">
-              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
+              <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css" id="especificidad">
                 Especificidad CSS
               </div>
               <div class="w3-container w3-hide">
@@ -385,10 +393,118 @@
                 <p>
                   La especificidad es un peso que se aplica a una declaración CSS dada, determinada por el número de cada tipo de selector en el selector coincidente. Cuando varias declaraciones tienen la misma especificidad, la última declaración encontrada en el CSS se aplica al elemento. La especificidad solo se aplica cuando el mismo elemento es el objetivo de varias declaraciones. Según las reglas de CSS, los elementos directamente dirigidos siempre tendrán prioridad sobre las reglas que un elemento hereda de su antepasado.
                 </p>
-                <div class="w3-panel w3-pale-blue w3-leftbar w3-border-blue w3-section">
+                <div class="w3-panel w3-card w3-pale-yellow w3-leftbar w3-border-blue w3-section" style=" border-color: #9CDB35 !important ;">
                   <p class="negrita">
-                    Nota: la proximidad de los elementos en el árbol del documento no tiene ningún efecto sobre la especificidad.
+                    Nota:
+                    <br/>
+                    <span style="margin-left: 20px;">
+                      La proximidad de los elementos en el árbol del documento no tiene ningún efecto sobre la especificidad.
+                    </span>
                   </p>
+                  <p>
+                  </p>
+                </div>
+                <div class="w3-container">
+                  <h4>
+                    Tipos de selector
+                  </h4>
+                  <p>
+                    La siguiente lista de tipos de selectores aumenta según la especificidad:
+                  </p>
+                  <ul class="">
+                    <li>
+                      Selectores de tipo (p. Ej., H1) y pseudoelementos (p. Ej., :: before).
+                    </li>
+                    <li>
+                      Selectores de clases (p. Ej., .Example), selectores de atributos (p. Ej., [Type = 'radio']) y pseudoclases (p. Ej.,: Hover).
+                    </li>
+                    <li>
+                      Selectores de ID (p. Ej., #Ejemplo).
+                    </li>
+                  </ul>
+                  <p>
+                    El selector universal (*), los combinadores (+,, , '', ||) y la pseudoclase de negación (: not ()) no tienen efecto sobre la especificidad. (Los selectores declarados dentro: not () hacen, sin embargo).
+                  </p>
+                  <p>
+                    Para obtener más información, visite: 'Especificidad' en 'Cascada y herencia', también puede visitar: https://specifishity.com Los estilos en línea agregados a un elemento (por ejemplo, style = 'font-weight: bold;') siempre sobrescriben cualquier estilo en hojas de estilo externas y, por lo tanto, se puede considerar que tienen la mayor especificidad.
+                  </p>
+                </div>
+                <div class="w3-container">
+                  <h4>
+                    La! Excepción importante
+                  </h4>
+                  <p>
+                    Cuando se usa una regla importante en una declaración de estilo, esta declaración anula cualquier otra declaración. Aunque técnicamente! Importante no tiene nada que ver con la especificidad, interactúa directamente con ella. Sin embargo, usar! Important es una mala práctica y debe evitarse porque dificulta la depuración al romper la cascada natural en sus hojas de estilo. Cuando se aplican dos declaraciones en conflicto con la regla! Important al mismo elemento, se aplicará la declaración con una mayor especificidad.
+                  </p>
+                  <p>
+                    Algunas reglas generales:
+                  </p>
+                  <ul class="ul">
+                    <li>
+                      ¡Siempre busque una forma de utilizar la especificidad antes de siquiera considerarlo!
+                    </li>
+                    <li>
+                      Solo use! Important en CSS específico de la página que anula CSS externo (de bibliotecas externas, como Bootstrap o normalize.css).
+                    </li>
+                    <li>
+                      Nunca use! Important cuando esté escribiendo un plugin / mashup.
+                    </li>
+                    <li>
+                      Nunca use! Important en CSS para todo el sitio.
+                    </li>
+                  </ul>
+                </div>
+                <div class="w3-container important">
+                  <h4>
+                    ¿Cómo se puede utilizar! Important:
+                  </h4>
+                  <ol>
+                    <li>
+                      Reemplazo de estilos en líneas
+                    </li>
+                    <ol style="list-style-type: lower-latin;">
+                      <li>
+                        Su archivo CSS global que establece los aspectos visuales de su sitio globalmente puede ser sobrescrito por estilos en línea definidos directamente en elementos individuales. Tanto los estilos en línea como! Important se consideran una práctica muy mala, pero a veces es necesario que el último anule al primero.
+                        <br/>
+                        En este caso, puede establecer ciertos estilos en su archivo CSS global como! Importantes, anulando así los estilos en línea establecidos directamente en los elementos.
+                      </li>
+                    </ol>
+                    <li>
+                    </li>
+                    <li>
+                    </li>
+                    <li>
+                    </li>
+                  </ol>
+                </div>
+                <div class="w3-container">
+                  <h4>
+                  </h4>
+                  <div class="w3-code cssHigh notranslate">
+                    body {
+                    <br/>
+                    background-color: #d0e4fe;
+                    <br/>
+                    }
+                    <br/>
+                    <br/>
+                    h1 {
+                    <br/>
+                    color: orange;
+                    <br/>
+                    text-align: center;
+                    <br/>
+                    }
+                    <br/>
+                    <br/>
+                    p {
+                    <br/>
+                    font-family: "Times New Roman";
+                    <br/>
+                    font-size: 20px;
+                    <br/>
+                    }
+                  </div>
                 </div>
               </div>
             </div>
@@ -568,9 +684,7 @@
             </div> -->
           </div>
         </div>
-        <div class="w3-container">
-          <?php include "comp/pie.php";?>
-        </div>
+        <?php include "comp/pie.php";?>
       </div>
     </div>
     <?php include "comp/slidebar.php";?>

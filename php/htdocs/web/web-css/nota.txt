@@ -3,6 +3,9 @@ Referencias
 Definiciones 
 https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax#see_also
 
+Ver también
+https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax#see_also
+
 la sintaxis
 https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax
  
