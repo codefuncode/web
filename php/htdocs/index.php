@@ -15,7 +15,7 @@
         <div class="w3-container w3-stretch">
         <header class="w3-container" style="">
           <?php include_once "comp/header.php";?>
-          <?php include_once "comp/webenconstruccion.php";?>
+
         </header>
         <div class="w3-row-padding w3-margin-bottom w3-hide-small">
           <div class="w3-five">
