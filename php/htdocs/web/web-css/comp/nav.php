@@ -36,7 +36,10 @@
       <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.kt7ztd0AwJWy9sm_MDg6AQHaEu%26pid%3DApi&f=1"/>
       Home
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="00001-introduccion.php">
+    <a class="w3-bar-item w3-button w3-padding" href="index.php">
+      <img src="img/all/css3.png"/>
+      Bienvenida
+    </a>   <a class="w3-bar-item w3-button w3-padding" href="00001-introduccion.php">
       <img src="img/all/css3.png"/>
       Introducción
     </a>
