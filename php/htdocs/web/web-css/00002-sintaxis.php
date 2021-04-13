@@ -56,6 +56,15 @@
         margin-bottom: 50px;
        }
     </style>
+    <div class="code_modal" id="code_myModal">
+      <span class="code_close">
+        ×
+      </span>
+      <img class="code_img_modal-content" id="code_img01"/>
+      <div id="code_caption">
+      </div>
+    </div>
+    <link href="css/img_modal.css" rel="stylesheet" type="text/css"/>
     <?php include_once 'comp/menu.php';?>
     <!-- Sidebar/menu -->
     <?php include_once 'comp/nav.php'?>
@@ -786,6 +795,8 @@
       <?php include "comp/pie.php";?>
     </div>
     <?php include "comp/slidebar.php";?>
+    <script src="js/img_modal.js" type="text/javascript">
+    </script>
     <script type="text/javascript">
       Acordeon_Sintaxis();
       function Acordeon_Sintaxis(argument) {
