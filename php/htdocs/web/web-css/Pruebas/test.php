@@ -51,53 +51,21 @@
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <style type="text/css">
-      table td    { height: 50px !important; }
-      .myTable td { height: 50px !important; }
-      #myTable td { height: 50px !important; }
+      [id="someElement"] p {
+      color: blue;
+      }
 
-      /*=======================================*/
-      td { height: 50px !important; }
-      /*=======================================*/
+      p.awesome {
+      color: red;
+      }
     </style>
     <title>
       Document
     </title>
   </head>
   <body>
-    <table class="myTable" id="myTable">
-      <tr>
-        <th>
-          xxxxxxxxxxx
-        </th>
-        <th>
-          xxxxxxxxxxx
-        </th>
-        <th>
-          xxxxxxxxxxx
-        </th>
-      </tr>
-      <tr>
-        <td>
-          xxxxxxxxxxx
-        </td>
-        <td>
-          xxxxxxxxxxx
-        </td>
-        <td>
-          xxxxxxxxxxx
-        </td>
-      </tr>
-      <tr>
-        <td>
-          xxxxxxxxxxx
-        </td>
-        <td>
-          xxxxxxxxxxx
-        </td>
-        <td>
-          xxxxxxxxxxx
-        </td>
-      </tr>
-    </table>
+    <p class="awesome" id="someElement">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad fuga esse perspiciatis temporibus sunt velit. Eveniet dicta veritatis molestias sed neque, quod sapiente temporibus aperiam, voluptate aspernatur repellat optio totam.
+    </p>
   </body>
 </html>

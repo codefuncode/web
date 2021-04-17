@@ -8,6 +8,9 @@
 }
 /* The Modal (background) */
 
+#code_img01 {
+    margin: auto !important;
+}
 .code_modal {
     display: none;
     /* Hidden by default */
@@ -37,6 +40,7 @@
     display: block;
     width: 80%;
     max-width: 700px;
+    margin: auto !important;
 }
 /* code_Caption of Modal Image */
 
@@ -79,7 +83,7 @@
 
 .code_close {
     position: absolute;
-    top: 15px;
+    top: 30px;
     right: 35px;
     color: #f1f1f1;
     font-size: 40px;

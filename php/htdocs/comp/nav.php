@@ -69,7 +69,7 @@
       <img src="img/all/codedoc.png"/>
       Plantillas
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Traduccion/" target="_blank">
+    <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Libros/" target="_blank">
       <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn0.iconfinder.com%2Fdata%2Ficons%2Feducation-8%2F512%2Freading_book-512.png&f=1&nofb=1"/>
       Libros
       <span class="w3-tag w3-round" style=" background-color: #9CDB35 !important; padding: 3px;">

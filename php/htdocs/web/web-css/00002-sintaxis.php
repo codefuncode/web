@@ -56,14 +56,14 @@
         margin-bottom: 50px;
        }
     </style>
-    <div class="code_modal" id="code_myModal">
+    <!--     <div class="code_modal" id="code_myModal">
       <span class="code_close">
         ×
       </span>
       <img class="code_img_modal-content" id="code_img01"/>
       <div id="code_caption">
       </div>
-    </div>
+    </div> -->
     <link href="css/img_modal.css" rel="stylesheet" type="text/css"/>
     <?php include_once 'comp/menu.php';?>
     <!-- Sidebar/menu -->
@@ -198,20 +198,6 @@
               <p>
                 Las reglas at son declaraciones CSS que instruyen a CSS sobre cómo comportarse. Comienzan con un signo arroba, '@' , seguido de un identificador e incluye todo hasta el siguiente punto y coma, ';' , o el siguiente bloque CSS, lo que ocurra primero.
               </p>
-              <!--     <div class="">
-                <div class="w3-code cssHigh notranslate">
-                  /* Estructura general */
-                  <br/>
-                  @IDENTIFIER (RULE);
-                  <br/>
-                  /* Ejemplo: le dice al navegador
-                  <br/>
-                  que use el juego de caracteres UTF-8 */
-                  <br/>
-                  @charset "utf-8";
-                  <br/>
-                </div>
-              </div> -->
               <div class="w3-content secion_imagen" style="max-width:800px">
                 <img class="w3-image w3-card w3-leftbar" src="img/00002/reglas/00001.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
               </div>
@@ -241,21 +227,9 @@
               <h4>
                 Anidado
               </h4>
-              <!-- ======================================================================================================================================================================================================================================================================================================================================================================================================= -->
-              <!--    <div class="">
-                <div class="w3-code cssHigh notranslate ">
-    secion_imagen               @IDENTIFIER (RULE) {
-                  <br/>
-                  <br/>
-                  }
-                  <br/>
-                  <br/>
-                </div>
-              </div> -->
               <div class="w3-content" style="max-width:800px">
                 <img class="w3-image w3-card w3-leftbar" src="img/00002/reglas/00002.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
               </div>
-              <!-- ======================================================================================================================================================================================================================================================================================================================================================================================================= -->
               <p>
                 Un subconjunto de declaraciones anidadas, que se puede utilizar como una declaración de una hoja de estilo, así como dentro de las reglas de grupo condicionales.
               </p>
@@ -364,41 +338,6 @@
               <p>
                 Los comentarios se pueden colocar donde se permita el espacio en blanco dentro de una hoja de estilo. Se pueden utilizar en una sola línea o atravesar varias líneas.
               </p>
-              <!--    <div class="">
-                <div class="w3-code cssHigh notranslate">
-                  /*  Un comentario de una línea  */
-                  <br/>
-                  <br/>
-                  /*
-                  <br/>
-                  Un comentario
-                  <br/>
-                  que se estira
-                  <br/>
-                  sobre muchos
-                  <br/>
-                  líneas
-                  <br/>
-                  */
-                  <br/>
-                  <br/>
-                  /*  El comentario a continuación se usa para deshabilitar un estilo específico  */
-                  <br/>
-                  <br/>
-                  /*
-                  <br/>
-                  span {
-                  <br/>
-                  color: blue;
-                  <br/>
-                  font-size: 1.5em;
-                  <br/>
-                  }
-                  <br/>
-                  */
-                  <br/>
-                </div>
-              </div> -->
               <!--  Seccion_imagen -->
               <div class="w3-content secion_imagen" style="max-width:800px">
                 <img class="w3-image w3-card w3-leftbar" src="img/00002/comentarios/00001.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
@@ -411,226 +350,238 @@
             <summary>
               Especificidad CSS
             </summary>
-          </details>
-          <div class="w3-container w3-card-4 w3-margin-top">
-            <h4>
-              Especificidad
-            </h4>
-            <p>
-              La especificidad es el medio por el cual los navegadores deciden qué valores de propiedad CSS son los más relevantes para un elemento y, por lo tanto, se aplicarán. La especificidad se basa en las reglas de coincidencia que se componen de diferentes tipos de selectores CSS.
-            </p>
-            <h4>
-              ¿Cómo se calcula la especificidad?
-            </h4>
-            <p>
-              La especificidad es un peso que se aplica a una declaración CSS dada, determinada por el número de cada tipo de selector en el selector coincidente. Cuando varias declaraciones tienen la misma especificidad, la última declaración encontrada en el CSS se aplica al elemento. La especificidad solo se aplica cuando el mismo elemento es el objetivo de varias declaraciones. Según las reglas de CSS, los elementos directamente dirigidos siempre tendrán prioridad sobre las reglas que un elemento hereda de su antepasado.
-            </p>
-            <div class="w3-panel w3-card w3-pale-yellow w3-leftbar w3-border-blue w3-section" style=" border-color: #9CDB35 !important ;">
-              <p class="negrita">
-                Nota:
-                <br/>
-                <span style="margin-left: 20px;">
-                  La proximidad de los elementos en el árbol del documento no tiene ningún efecto sobre la especificidad.
-                </span>
-              </p>
-            </div>
-            <div class="w3-container">
+            <div class="w3-container w3-card-4 w3-margin-top">
               <h4>
-                Tipos de selector
+                Especificidad
               </h4>
               <p>
-                La siguiente lista de tipos de selectores aumenta según la especificidad:
+                La especificidad es el medio por el cual los navegadores deciden qué valores de propiedad CSS son los más relevantes para un elemento y, por lo tanto, se aplicarán. La especificidad se basa en las reglas de coincidencia que se componen de diferentes tipos de selectores CSS.
               </p>
-              <ul class="">
-                <li>
-                  Selectores de tipo (p. Ej., H1) y pseudoelementos (p. Ej., :: before).
-                </li>
-                <li>
-                  Selectores de clases (p. Ej., .Example), selectores de atributos (p. Ej., [Type = 'radio']) y pseudoclases (p. Ej.,: Hover).
-                </li>
-                <li>
-                  Selectores de ID (p. Ej., #Ejemplo).
-                </li>
-              </ul>
-              <p>
-                El selector universal (*), los combinadores (+,, , '', ||) y la pseudoclase de negación (: not ()) no tienen efecto sobre la especificidad. (Los selectores declarados dentro: not () hacen, sin embargo).
-              </p>
-              <p>
-                Para obtener más información, visite:
-                <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance#specificity_2" target="_blank">
-                  'Especificidad' en 'Cascada y herencia'
-                </a>
-                , también puede visitar:
-                <a href="https://specifishity.com" target="_blank">
-                  https://specifishity.com
-                </a>
-                https://specifishity.com Los estilos en línea agregados a un elemento (por ejemplo, style = 'font-weight: bold;') siempre sobrescriben cualquier estilo en hojas de estilo externas y, por lo tanto, se puede considerar que tienen la mayor especificidad.
-              </p>
-            </div>
-            <div class="w3-container">
               <h4>
-                La excepción
-                <span class="w3-tag w3-green" style="font-size: 0.8em; font-weight: bold;">
-                  ! important
-                </span>
+                ¿Cómo se calcula la especificidad?
               </h4>
               <p>
-                Cuando se usa una regla importante en una declaración de estilo, esta declaración anula cualquier otra declaración. Aunque técnicamente! Importante no tiene nada que ver con la especificidad, interactúa directamente con ella. Sin embargo, usar! Important es una mala práctica y debe evitarse porque dificulta la depuración al romper la cascada natural en sus hojas de estilo. Cuando se aplican dos declaraciones en conflicto con la regla! Important al mismo elemento, se aplicará la declaración con una mayor especificidad.
+                La especificidad es un peso que se aplica a una declaración CSS dada, determinada por el número de cada tipo de selector en el selector coincidente. Cuando varias declaraciones tienen la misma especificidad, la última declaración encontrada en el CSS se aplica al elemento. La especificidad solo se aplica cuando el mismo elemento es el objetivo de varias declaraciones. Según las reglas de CSS, los elementos directamente dirigidos siempre tendrán prioridad sobre las reglas que un elemento hereda de su antepasado.
               </p>
-              <p>
-                Algunas reglas generales:
-              </p>
-              <ul class="ul">
-                <li>
-                  Siempre busque una forma de utilizar la especificidad antes de siquier considerar
-                  <span class="w3-tag w3-green" style=" font-weight: bold;">
-                    !important
+              <div class="w3-panel w3-card w3-pale-yellow w3-leftbar w3-border-blue w3-section" style=" border-color: #9CDB35 !important ;">
+                <p class="negrita">
+                  Nota:
+                  <br/>
+                  <span style="margin-left: 20px;">
+                    La proximidad de los elementos en el árbol del documento no tiene ningún efecto sobre la especificidad.
                   </span>
-                </li>
-                <li>
-                  Solo use
-                  <span class="w3-tag w3-green" style=" font-weight: bold;">
-                    !important
-                  </span>
-                  en CSS específico de la página que anula CSS externo (de bibliotecas externas, como Bootstrap o normalize.css).
-                </li>
-                <li>
-                  Nunca use
-                  <span class="w3-tag w3-green" style=" font-weight: bold;">
-                    !important
-                  </span>
-                  cuando esté escribiendo un plugin / mashup.
-                </li>
-                <li>
-                  Nunca use
-                  <span class="w3-tag w3-green" style=" font-weight: bold;">
-                    !important
-                  </span>
-                  en CSS para todo el sitio.
-                </li>
-              </ul>
-            </div>
-            <div class="w3-container">
-              <h4>
-                En lugar de usar
-                <span class="w3-tag w3-green" style=" font-weight: bold;">
-                  !important
-                </span>
-                , considere:
-              </h4>
-              <ol>
-                <li>
-                  Aproveche mejor la cascada de CSS
-                </li>
-                <li>
-                  Utilice reglas más específicas. Al indicar uno o más elementos antes del elemento que está seleccionando, la regla se vuelve más específica y obtiene una mayor prioridad:
-                </li>
-                <div class="w3-content secion_imagen" style="max-width:800px">
-                  <img class="w3-image w3-card w3-leftbar" src="img/00002/especificidad/00001.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
-                  <div class="w3-panel w3-card w3-pale-yellow w3-leftbar w3-border-blue w3-section" style=" border-color: #9CDB35 !important ;">
-                    <p>
-                      No importa el orden, el texto será verde porque esa regla es la más específica. (Además, la regla para el azul sobrescribe la regla para el rojo, independientemente del orden de las reglas)
-                    </p>
-                  </div>
-                </div>
-                <li>
-                  Como caso especial sin sentido para (2), duplique selectores simples para aumentar la especificidad cuando no tenga nada más que especificar.
-                </li>
-                <div class="w3-content secion_imagen" style="max-width:800px">
-                  <img class="w3-image w3-card w3-leftbar" src="img/00002/especificidad/00002.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
-                </div>
-              </ol>
-            </div>
-            <div class="w3-container important">
-              <h4>
-                ¿Cómo se puede utilizar
-                <span class="w3-tag w3-green" style="font-size: 0.8em; font-weight: bold;">
-                  ! important
-                </span>
-                ?
-              </h4>
-              <ol>
-                <li>
-                  Reemplazo de estilos en líneas
-                </li>
-                <ol style="list-style-type: lower-latin;">
+                </p>
+              </div>
+              <div class="w3-container">
+                <h4>
+                  Tipos de selector
+                </h4>
+                <p>
+                  La siguiente lista de tipos de selectores aumenta según la especificidad:
+                </p>
+                <ul class="">
                   <li>
-                    Su archivo CSS global que establece los aspectos visuales de su sitio globalmente puede ser sobrescrito por estilos en línea definidos directamente en elementos individuales. Tanto los estilos en línea como! Important se consideran una práctica muy mala, pero a veces es necesario que el último anule al primero.
-                    <br/>
-                    En este caso, puede establecer ciertos estilos en su archivo CSS global como
+                    Selectores de tipo (p. Ej., H1) y pseudoelementos (p. Ej., :: before).
+                  </li>
+                  <li>
+                    Selectores de clases (p. Ej., .Example), selectores de atributos (p. Ej., [Type = 'radio']) y pseudoclases (p. Ej.,: Hover).
+                  </li>
+                  <li>
+                    Selectores de ID (p. Ej., #Ejemplo).
+                  </li>
+                </ul>
+                <p>
+                  El selector universal (*), los combinadores (+,, , '', ||) y la pseudoclase de negación (: not ()) no tienen efecto sobre la especificidad. (Los selectores declarados dentro: not () hacen, sin embargo).
+                </p>
+                <p>
+                  Para obtener más información, visite:
+                  <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance#specificity_2" target="_blank">
+                    'Especificidad' en 'Cascada y herencia'
+                  </a>
+                  , también puede visitar:
+                  <a href="https://specifishity.com" target="_blank">
+                    https://specifishity.com
+                  </a>
+                  https://specifishity.com Los estilos en línea agregados a un elemento (por ejemplo, style = 'font-weight: bold;') siempre sobrescriben cualquier estilo en hojas de estilo externas y, por lo tanto, se puede considerar que tienen la mayor especificidad.
+                </p>
+              </div>
+              <div class="w3-container">
+                <h4>
+                  La excepción
+                  <span class="w3-tag w3-green" style="font-size: 0.8em; font-weight: bold;">
+                    ! important
+                  </span>
+                </h4>
+                <p>
+                  Cuando se usa una regla importante en una declaración de estilo, esta declaración anula cualquier otra declaración. Aunque técnicamente! Importante no tiene nada que ver con la especificidad, interactúa directamente con ella. Sin embargo, usar! Important es una mala práctica y debe evitarse porque dificulta la depuración al romper la cascada natural en sus hojas de estilo. Cuando se aplican dos declaraciones en conflicto con la regla! Important al mismo elemento, se aplicará la declaración con una mayor especificidad.
+                </p>
+                <p>
+                  Algunas reglas generales:
+                </p>
+                <ul class="ul">
+                  <li>
+                    Siempre busque una forma de utilizar la especificidad antes de siquier considerar
                     <span class="w3-tag w3-green" style=" font-weight: bold;">
                       !important
                     </span>
-                    , anulando así los estilos en línea establecidos directamente en los elementos.
+                  </li>
+                  <li>
+                    Solo use
+                    <span class="w3-tag w3-green" style=" font-weight: bold;">
+                      !important
+                    </span>
+                    en CSS específico de la página que anula CSS externo (de bibliotecas externas, como Bootstrap o normalize.css).
+                  </li>
+                  <li>
+                    Nunca use
+                    <span class="w3-tag w3-green" style=" font-weight: bold;">
+                      !important
+                    </span>
+                    cuando esté escribiendo un plugin / mashup.
+                  </li>
+                  <li>
+                    Nunca use
+                    <span class="w3-tag w3-green" style=" font-weight: bold;">
+                      !important
+                    </span>
+                    en CSS para todo el sitio.
+                  </li>
+                </ul>
+              </div>
+              <div class="w3-container">
+                <h4>
+                  En lugar de usar
+                  <span class="w3-tag w3-green" style=" font-weight: bold;">
+                    !important
+                  </span>
+                  , considere:
+                </h4>
+                <ol>
+                  <li>
+                    Aproveche mejor la cascada de CSS
+                  </li>
+                  <li>
+                    Utilice reglas más específicas. Al indicar uno o más elementos antes del elemento que está seleccionando, la regla se vuelve más específica y obtiene una mayor prioridad:
                   </li>
                   <div class="w3-content secion_imagen" style="max-width:800px">
-                    <img class="w3-image w3-card w3-leftbar" src="img/00002/especificidad/00003.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
+                    <img class="w3-image w3-card w3-leftbar" src="img/00002/especificidad/00001.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
                     <div class="w3-panel w3-card w3-pale-yellow w3-leftbar w3-border-blue w3-section" style=" border-color: #9CDB35 !important ;">
                       <p>
-                        Muchos marcos y bibliotecas de JavaScript agregan estilos en línea. Usar
+                        No importa el orden, el texto será verde porque esa regla es la más específica. (Además, la regla para el azul sobrescribe la regla para el rojo, independientemente del orden de las reglas)
+                      </p>
+                    </div>
+                  </div>
+                  <li>
+                    Como caso especial sin sentido para (2), duplique selectores simples para aumentar la especificidad cuando no tenga nada más que especificar.
+                  </li>
+                  <div class="w3-content secion_imagen" style="max-width:800px">
+                    <img class="w3-image w3-card w3-leftbar" src="img/00002/especificidad/00002.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
+                  </div>
+                </ol>
+              </div>
+              <div class="w3-container important">
+                <h4>
+                  ¿Cómo se puede utilizar
+                  <span class="w3-tag w3-green" style="font-size: 0.8em; font-weight: bold;">
+                    ! important
+                  </span>
+                  ?
+                </h4>
+                <ol>
+                  <li>
+                    Reemplazo de estilos en líneas
+                  </li>
+                  <ol style="list-style-type: lower-latin;">
+                    <li>
+                      Su archivo CSS global que establece los aspectos visuales de su sitio globalmente puede ser sobrescrito por estilos en línea definidos directamente en elementos individuales. Tanto los estilos en línea como! Important se consideran una práctica muy mala, pero a veces es necesario que el último anule al primero.
+                      <br/>
+                      En este caso, puede establecer ciertos estilos en su archivo CSS global como
+                      <span class="w3-tag w3-green" style=" font-weight: bold;">
+                        !important
+                      </span>
+                      , anulando así los estilos en línea establecidos directamente en los elementos.
+                    </li>
+                    <div class="w3-content secion_imagen" style="max-width:800px">
+                      <img class="w3-image w3-card w3-leftbar" src="img/00002/especificidad/00003.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
+                      <div class="w3-panel w3-card w3-pale-yellow w3-leftbar w3-border-blue w3-section" style=" border-color: #9CDB35 !important ;">
+                        <p>
+                          Muchos marcos y bibliotecas de JavaScript agregan estilos en línea. Usar
+                          <!--  Inpottant -->
+                          <span class="w3-tag w3-green" style="font-size: 0.8em; font-weight: bold;">
+                            ! important
+                          </span>
+                          <!--  Inpottant -->
+                          con un selector muy específico es una forma de anular estos estilos en línea.
+                        </p>
+                      </div>
+                    </div>
+                  </ol>
+                  <li>
+                    Anulando una alta especificidad
+                  </li>
+                  <div class="w3-content secion_imagen" style="max-width:800px">
+                    <img class="w3-image w3-card w3-leftbar" src="img/00002/especificidad/00004.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
+                    <div class="w3-panel w3-card w3-pale-yellow w3-leftbar w3-border-blue w3-section" style=" border-color: #9CDB35 !important ;">
+                      <p>
+                        ¿Cómo puedes hacer que los párrafos increíbles siempre se vuelvan rojos, incluso los que están dentro de #someElement? Sin
                         <!--  Inpottant -->
                         <span class="w3-tag w3-green" style="font-size: 0.8em; font-weight: bold;">
                           ! important
                         </span>
                         <!--  Inpottant -->
-                        con un selector muy específico es una forma de anular estos estilos en línea.
+                        , la primera regla tendrá más especificidad y prevalecerá sobre la segunda regla.
                       </p>
                     </div>
                   </div>
                 </ol>
-                <li>
-                  Anulando una alta especificidad
-                </li>
-                <div class="w3-content secion_imagen" style="max-width:800px">
-                  <img class="w3-image w3-card w3-leftbar" src="img/00002/especificidad/00004.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
-                  <div class="w3-panel w3-card w3-pale-yellow w3-leftbar w3-border-blue w3-section" style=" border-color: #9CDB35 !important ;">
-                    <p>
-                      ¿Cómo puedes hacer que los párrafos increíbles siempre se vuelvan rojos, incluso los que están dentro de #someElement? Sin
-                      <!--  Inpottant -->
-                      <span class="w3-tag w3-green" style="font-size: 0.8em; font-weight: bold;">
-                        ! important
-                      </span>
-                      <!--  Inpottant -->
-                      , la primera regla tendrá más especificidad y prevalecerá sobre la segunda regla.
-                    </p>
+                <h4>
+                  Cómo anular
+                  <!--  Inpottant -->
+                  <span class="w3-tag w3-green" style="font-size: 0.8em; font-weight: bold;">
+                    ! important
+                  </span>
+                  <!--  Inpottant -->
+                </h4>
+                <ol>
+                  <li>
+                    Agrega otra regla CSS con! Important y dale al selector una mayor especificidad (agregando una etiqueta, id o clase al selector), o agrega una regla CSS con el mismo selector en un punto posterior al existente. Esto funciona porque en un empate de especificidad, gana la última regla definida.
+                  </li>
+                  <div class="w3-content secion_imagen" style="max-width:800px">
+                    <div class="w3-panel w3-card w3-pale-yellow w3-leftbar w3-border-blue w3-section" style=" border-color: #9CDB35 !important ;">
+                      <p>
+                        Algunos ejemplos con mayor especificidad:
+                      </p>
+                    </div>
+                    <img class="w3-image w3-card w3-leftbar" src="img/00002/especificidad/00005.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
                   </div>
-                </div>
-              </ol>
-              <h4>
-                Cómo anular
-                <!--  Inpottant -->
-                <span class="w3-tag w3-green" style="font-size: 0.8em; font-weight: bold;">
-                  ! important
-                </span>
-                <!--  Inpottant -->
-              </h4>
-              <ol>
-                <li>
-                  Agrega otra regla CSS con! Important y dale al selector una mayor especificidad (agregando una etiqueta, id o clase al selector), o agrega una regla CSS con el mismo selector en un punto posterior al existente. Esto funciona porque en un empate de especificidad, gana la última regla definida.
-                </li>
-                <div class="w3-content secion_imagen" style="max-width:800px">
-                  <div class="w3-panel w3-card w3-pale-yellow w3-leftbar w3-border-blue w3-section" style=" border-color: #9CDB35 !important ;">
-                    <p>
-                      Algunos ejemplos con mayor especificidad:
-                    </p>
+                  <li>
+                    O agregue el mismo selector después del existente:
+                  </li>
+                  <div class="w3-content secion_imagen" style="max-width:800px">
+                    <img class="w3-image w3-card w3-leftbar" src="img/00002/especificidad/00006.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
                   </div>
-                  <img class="w3-image w3-card w3-leftbar" src="img/00002/especificidad/00005.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
-                </div>
-                <li>
-                  O agregue el mismo selector después del existente:
-                </li>
-                <div class="w3-content secion_imagen" style="max-width:800px">
-                  <img class="w3-image w3-card w3-leftbar" src="img/00002/especificidad/00006.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
-                </div>
-              </ol>
-            </div>
-            <!--    <div class="w3-container">
+                  <li>
+                    O, preferiblemente, reescriba la regla original para evitar el uso de
+                    <!--  Inpottant -->
+                    <span class="w3-tag w3-green" style="font-size: 0.8em; font-weight: bold;">
+                      ! important
+                    </span>
+                    <!--  Inpottant -->
+                    por completo.
+                  </li>
+                  <div class="w3-content secion_imagen" style="max-width:800px">
+                    <img class="w3-image w3-card w3-leftbar" src="img/00002/especificidad/00007.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
+                  </div>
+                </ol>
+              </div>
+              <!--    <div class="w3-container">
                 <h4>
                 </h4>
               </div> -->
-          </div>
+            </div>
+          </details>
           <!-- Herencia CSS -->
-          <details>
+          <!--     <details>
             <summary>
               Herencia CSS
             </summary>
@@ -642,155 +593,23 @@
                 Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
               </p>
             </div>
-          </details>
+          </details> -->
+          <!-- ================================================= -->
+          <!--     <details>
+            <summary>
+              Herencia CSS
+            </summary>
+            <div class="w3-container w3-card-4 w3-margin-top">
+              <h4>
+                xxxxxxxxxxx
+              </h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+              </p>
+            </div>
+          </details> -->
         </div>
         <!--  TODO -->
-        <!--     <div class="w3-container acordeon" style="margin-top: 20px;">
-
-          <div class="acordeon_item ">
-            <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
-              Modelo de caja básica CSS
-            </div>
-            <div class="w3-container w3-hide">
-              <h4>
-                xxxxxxxxxxx
-              </h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
-              </p>
-            </div>
-          </div>
-          <div class="acordeon_item ">
-            <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
-              Modo de diseño
-            </div>
-            <div class="w3-container w3-hide">
-              <h4>
-                xxxxxxxxxxx
-              </h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
-              </p>
-            </div>
-          </div>
-          <div class="acordeon_item ">
-            <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
-              Modelo de formato visual
-            </div>
-            <div class="w3-container w3-hide">
-              <h4>
-                xxxxxxxxxxx
-              </h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
-              </p>
-            </div>
-          </div>
-          <div class="acordeon_item ">
-            <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
-              Dominar el colapso de márgenes
-            </div>
-            <div class="w3-container w3-hide">
-              <h4>
-                xxxxxxxxxxx
-              </h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
-              </p>
-            </div>
-          </div>
-          <div class="acordeon_item ">
-            <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
-              Valor calculado
-            </div>
-            <div class="w3-container w3-hide">
-              <h4>
-                xxxxxxxxxxx
-              </h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
-              </p>
-            </div>
-          </div>
-          <div class="acordeon_item ">
-            <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
-              Valor específico
-            </div>
-            <div class="w3-container w3-hide">
-              <h4>
-                xxxxxxxxxxx
-              </h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
-              </p>
-            </div>
-          </div>
-          <div class="acordeon_item ">
-            <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
-              Valor usado
-            </div>
-            <div class="w3-container w3-hide">
-              <h4>
-                xxxxxxxxxxx
-              </h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
-              </p>
-            </div>
-          </div>
-          <div class="acordeon_item ">
-            <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
-              Valor actual
-            </div>
-            <div class="w3-container w3-hide">
-              <h4>
-                xxxxxxxxxxx
-              </h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
-              </p>
-            </div>
-          </div>
-          <div class="acordeon_item ">
-            <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
-              Sintaxis de definición de valor
-            </div>
-            <div class="w3-container w3-hide">
-              <h4>
-                xxxxxxxxxxx
-              </h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
-              </p>
-            </div>
-          </div>
-          <div class="acordeon_item ">
-            <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
-              Propiedades de taquigrafía
-            </div>
-            <div class="w3-container w3-hide">
-              <h4>
-                xxxxxxxxxxx
-              </h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
-              </p>
-            </div>
-          </div>
-          <div class="acordeon_item ">
-            <div class="w3-block w3-left-align w3-card-4 w3-padding pointer btn_sintaxis_css">
-              Elementos reemplazados
-            </div>
-            <div class="w3-container w3-hide">
-              <h4>
-                xxxxxxxxxxx
-              </h4>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
-              </p>
-            </div>
-          </div>
-        </div> -->
       </div>
       <?php include "comp/pie.php";?>
     </div>

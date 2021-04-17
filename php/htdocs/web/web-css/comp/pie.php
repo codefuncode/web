@@ -57,3 +57,4 @@
     </div>
   </div>
 </footer>
+<?php include_once "img_modal.php";?>
