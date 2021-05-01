@@ -13,10 +13,10 @@
         </strong>
       </span>
       <br/>
-      <a class="w3-bar-item facebook" href="https://www.facebook.com/codefuncode/" target="_blank">
+      <a class="w3-bar-item facebook" href="https://www.facebook.com/codefuncode/">
         <img alt="" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F2016%2F07%2FFacebook-Download-PNG.png&f=1&nofb=1"/>
       </a>
-      <a class="w3-bar-item " href="https://github.com/codefuncode" target="_blank">
+      <a class="w3-bar-item " href="https://github.com/codefuncode">
         <img alt="" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fbrettbeauregard.com%2Fblog%2Fwp-content%2Fuploads%2F2011%2F12%2Fgithub-300x300.png&f=1&nofb=1"/>
       </a>
     </div>
@@ -24,7 +24,7 @@
   <hr/>
   <div class="w3-container">
     <h5>
-     Zona de JS
+      Zona de JS
     </h5>
   </div>
   <div class="w3-bar-block menux">
@@ -33,33 +33,22 @@
       </i>
       Cerrar menú
     </a>
-     <a class="w3-bar-item w3-button w3-padding " href="../../index.php">
+    <a class="w3-bar-item w3-button w3-padding " href="../../index.php">
       <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.kt7ztd0AwJWy9sm_MDg6AQHaEu%26pid%3DApi&f=1"/>
       Home
     </a>
- <!--    <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Plantillas/" target="_blank">
-      <img src="img/all/codedoc.png"/>
-      Plantillas
+    <a class="w3-bar-item w3-button w3-padding" href="index.php
+    ">
+      <img src="img/all/js.png"/>
+     Bienvenida
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Plantillas/" target="_blank">
-      <img src="img/all/html5.png"/>
-      HTML
+    <a class="w3-bar-item w3-button w3-padding" href="00001.php">
+      <img src="img/all/js.png"/>
+      ¿Qué es JavaScript?
     </a>
-    <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Plantillas/" target="_blank">
-      <img src="img/all/css3.png"/>
-      CSS
-    </a>
-    <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Plantillas/" target="_blank">
-      <img src="img/all/php.png"/>
-      PHP
-    </a>
-    <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Plantillas/" target="_blank">
+    <!--    <a class="w3-bar-item w3-button w3-padding" href="00001.php">
       <img src="img/all/js.png"/>
       JS
-    </a>
-    <a class="w3-bar-item w3-button w3-padding" href="ejemplo/index.php" target="_blank">
-      <img src="img/all/194931.png"/>
-      Zona de estudiantes
     </a> -->
     <br/>
     <br/>

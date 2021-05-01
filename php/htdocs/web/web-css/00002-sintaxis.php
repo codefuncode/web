@@ -574,42 +574,83 @@
                   </div>
                 </ol>
               </div>
-              <!--    <div class="w3-container">
+              <div class="w3-container">
                 <h4>
+                  Especificidad basada en la forma
                 </h4>
-              </div> -->
+                <p>
+                  La especificidad se basa en la forma de un selector. En el siguiente caso, el selector * [id = 'foo'] cuenta como un selector de atributo con el fin de determinar la especificidad del selector, aunque seleccione un ID.
+                </p>
+                <div class="w3-content secion_imagen" style="max-width:800px">
+                  <img class="w3-image w3-card w3-leftbar" src="img/00002/especificidad/00008.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
+                </div>
+                <p>
+                  Esto se debe a que coincide con el mismo elemento, pero el selector de ID tiene una mayor especificidad.
+                </p>
+              </div>
+              <div class="w3-container">
+                <h4>
+                  Ignora la proximidad del árbol
+                </h4>
+                <p>
+                  La proximidad de un elemento a otros elementos a los que se hace referencia en un selector determinado no tiene ningún impacto en la especificidad. La siguiente declaración de estilo ...
+                </p>
+                <div class="w3-content secion_imagen" style="max-width:800px">
+                  <img class="w3-image w3-card w3-leftbar" src="img/00002/especificidad/00009.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
+                </div>
+              </div>
+              <div class="w3-content`">
+                <p>
+                  Esto se debe a que las dos declaraciones tienen el mismo recuento de tipos de selector, pero el selector html h1 se declara en último lugar.
+                </p>
+              </div>
+              <div class="w3-content`">
+                <h4>
+                  Elementos dirigidos directamente frente a estilos heredados
+                </h4>
+                <p>
+                  Los estilos de un elemento de destino directo siempre tendrán prioridad sobre los estilos heredados, independientemente de la especificidad de la regla heredada.
+                </p>
+                <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity#directly_targeted_elements_vs._inherited_styles -->
+              </div>
+              <div class="w3-content secion_imagen" style="max-width:800px">
+                <img class="w3-image w3-card w3-leftbar" src="img/00002/especificidad/000010.png" style="width: 100%; height: 50%; border-color: #9CDB35 !important ;"/>
+              </div>
             </div>
           </details>
-          <!-- Herencia CSS -->
-          <!--     <details>
+          <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/inheritance -->
+          <details>
             <summary>
-              Herencia CSS
+              Herencia
             </summary>
             <div class="w3-container w3-card-4 w3-margin-top">
               <h4>
-                xxxxxxxxxxx
+                Herencia
               </h4>
               <p>
-                Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+                En CSS, la herencia controla lo que sucede cuando no se especifica ningún valor para una propiedad en un elemento.
               </p>
-            </div>
-          </details> -->
-          <!-- ================================================= -->
-          <!--     <details>
-            <summary>
-              Herencia CSS
-            </summary>
-            <div class="w3-container w3-card-4 w3-margin-top">
-              <h4>
-                xxxxxxxxxxx
-              </h4>
               <p>
-                Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Odit voluptatum mollitia vero dolorem, error molestias nulla eveniet necessitatibus beatae! Minus ratione aliquam quisquam iste, eum. Reprehenderit ex pariatur dolorum sed!
+                Las propiedades CSS se pueden clasificar en dos tipos:
               </p>
+              <ol>
+                <li>
+                  Propiedades heredadas, que de forma predeterminada se establecen en el valor calculado del elemento padre
+                </li>
+                <li>
+                  Propiedades no heredadas, que de forma predeterminada se establecen en el valor inicial de la propiedad
+                </li>
+              </ol>
+
+              Consulte cualquier definición de propiedad CSS para ver si una propiedad específica se hereda de forma predeterminada ('Heredada: sí') o no ('Heredada: no').
+Propiedades heredadas
+
+Cuando no se ha especificado ningún valor para una propiedad heredada en un elemento, el elemento obtiene el valor calculado de esa propiedad en su elemento padre. Solo el elemento raíz del documento obtiene el valor inicial dado en el resumen de la propiedad.
+
+Un ejemplo típico de una propiedad heredada es la propiedad de color. Dadas las reglas de estilo:
             </div>
-          </details> -->
+          </details>
         </div>
-        <!--  TODO -->
       </div>
       <?php include "comp/pie.php";?>
     </div>

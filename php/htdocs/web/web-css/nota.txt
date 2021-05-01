@@ -14,10 +14,6 @@ las reglas
 https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule
 
 
-
-
-
-
 Esta pagina esta dedicada a la escritura de CSS y se abarca desde la sintaxis básica hasta la implementación de algunos marcos de trabajo que utilizo para generar interfaces bonitas y atractivas para le usuario. 
 
 Podrás encontrar contenido que utilizo de referencias para mis trabajos aquí:

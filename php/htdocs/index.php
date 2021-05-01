@@ -12,10 +12,9 @@
     <!-- !PAGE CONTENT! -->
     <div class="w3-main" style="margin-left:300px;margin-top:43px;">
       <!-- Header -->
-        <div class="w3-container w3-stretch">
+      <div class="w3-container w3-stretch">
         <header class="w3-container" style="">
           <?php include_once "comp/header.php";?>
-
         </header>
         <div class="w3-row-padding w3-margin-bottom w3-hide-small">
           <div class="w3-five">
@@ -24,7 +23,7 @@
             </div>
           </div>
           <div class="w3-five">
-            <div class="w3-container ">
+            <div class="w3-container">
               <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn3.iconfinder.com%2Fdata%2Ficons%2Fsocial-media-logos-flat-colorful-1%2F2048%2F5351_-_CSS3-512.png&f=1&nofb=1"/>
             </div>
           </div>
@@ -49,7 +48,7 @@
           <div class="">
           </div>
         </div>
-      <?php include_once "comp/pie.php";?>
+        <?php include_once "comp/pie.php";?>
       </div>
     </div>
     <!-- End page content -->

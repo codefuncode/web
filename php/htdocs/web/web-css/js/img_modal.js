@@ -4,7 +4,7 @@ function code_aplica_modal_img(argument) {
 
     // Get the image and insert it inside the modal - use its "alt" text as a code_caption
     // let img = document.getElementById("code_myImg");
-    let img = document.querySelectorAll("img");
+    let img = document.querySelectorAll(".w3-main img");
     let modalImg = document.getElementById("code_img01");
     let code_captionText = document.getElementById("code_caption");
     for (var i = 0; i < img.length; i++) {

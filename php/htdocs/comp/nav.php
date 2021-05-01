@@ -39,23 +39,23 @@
     </a>
     <a class="w3-bar-item w3-button w3-padding w3-disabled" href="web/html/index.php" target="_blank">
       <img src="img/all/html5.png"/>
-      Curso de HTML
+       HTML
     </a>
     <a class="w3-bar-item w3-button w3-padding" href="web/web-css/index.php">
       <img src="img/all/css3.png"/>
-      Curso de CSS
+       CSS
     </a>
     <a class="w3-bar-item w3-button w3-padding" href="web/web-js/index.php">
       <img src="img/all/js.png"/>
-      Curso de JS
+       JS
     </a>
     <a class="w3-bar-item w3-button w3-padding w3-disabled" href="web/php/index.php">
       <img src="img/all/php.png"/>
-      Curso de PHP
+       PHP
     </a>
     <a class="w3-bar-item w3-button w3-padding w3-disabled" href="web/mysql/index.php">
       <img src="img/all/mysql.png"/>
-      Curso de MySQL
+       MySQL
     </a>
     <a class="w3-bar-item w3-button w3-padding w3-disabled" href="web/cliente/index.php">
       <img src="img/all/194931.png"/>
