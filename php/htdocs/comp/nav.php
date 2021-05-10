@@ -78,7 +78,12 @@
         </span>
       </span>
     </a>
-    <br/>
-    <br/>
+
+    <hr/>
+     <a class="w3-bar-item w3-button w3-padding" href="https://codefuncode.github.io/Pildoras-Informaticas/" target="_blank">
+         <img src="img/Píldoras Informaticas.jpg"/>
+         Píldoras Informáticas
+     </a>
+     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
   </div>
 </nav>
